@@ -1,1 +1,47 @@
+@import "~swiper/swiper-bundle";
+
+
+
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none !important;
+}
+
+.m{
+    &-0{
+        margin: 0;
+    }
+}
+/*MARGIN BOTTOM*/
+.mb{
+    &-2{
+        margin-bottom: 20px;
+    }
+    &-4{
+        margin-bottom: 40px;
+    }
+    &-6{
+        margin-bottom: 60px;
+    }
+    &-8{
+        margin-bottom: 80px;
+    }
+    &-18{
+        margin-bottom: 180px;
+    }
+    
+}
+.p{
+    &-0{
+        padding: 0!important;
+    }
+}

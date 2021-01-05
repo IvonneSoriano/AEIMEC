@@ -1,0 +1,40 @@
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    position: relative;
+    swiper {
+        .slider {
+            &.img{
+                width: 100%;
+                height: 100vh;
+                position: relative;
+                background-repeat: no-repeat;
+                background-size: cover;
+                .info{
+                    max-width: 800px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    position: absolute;
+                    bottom: 300px;
+                    &>p{
+                        max-width: 840px;
+                    }
+                }
+            }
+        }
+        &.text{
+            position: absolute;
+            bottom: 50px;
+            .slider {
+                color: pink;
+            }
+        }
+    }
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
+    top: 60px;
+    right: 0!important;
+    left: unset!important;
+}
