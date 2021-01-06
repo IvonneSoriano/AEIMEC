@@ -27,3 +27,60 @@ export const home = {
         }
     ]
 }
+
+/*Aquí va la información que saldrá en la parte del Home, especificamente donde está el AboutUs */
+export const aboutUs = {
+    /*Esta es la info que va superpuesta en una imagen */
+    subtitle: {
+        title: "Title 02",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet id tristique urna, nibh cursus euismod nisl. Molestie felis pretium vitae fermentum elit tellus. Quis aliquam ac pellentesque pulvinar viverra ridiculus sit. Id leo arcu a ullamcorper fames quis pretium tempus est. Aliquet ultrices duis non cursus volutpat sed eget id potenti."
+    },
+    /* Aquí se coloca, comunmente, la Misión y la Visión, pero se puede colocar cualquier información siempre y cuando vaya en pareja */
+    generalInfo: [
+        {
+            title: "Misión",
+            description: "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis."
+        },
+        {
+            title: "Misión",
+            description: "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis."
+        }
+    ],
+    /*Aquí se debe colocar la información d elos mimebros */
+    members: {
+        title: "Miembros",
+        members: [
+        
+        {
+            fullname: "Nombe Apellido",
+            job: "Posición",
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+        },
+        {
+            fullname: "Nombe Apellido",
+            job: "Posición",
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+        },
+        {
+            fullname: "Nombe Apellido",
+            job: "Posición",
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+        },
+        {
+            fullname: "Nombe Apellido",
+            job: "Posición",
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+        },
+        {
+            fullname: "Nombe Apellido",
+            job: "Posición",
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+        },
+        {
+            fullname: "Nombe Apellido",
+            job: "Posición",
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+        }
+    ]
+    }
+}

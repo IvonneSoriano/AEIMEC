@@ -3,7 +3,14 @@
     width: 100%;
     background-color: #eee;
     position: relative;
-    swiper {
+    .pagination{
+        position: absolute;
+        top: 60px;
+        right: 60px;
+        z-index: 300;
+        height: 15px;
+    
+    }
         .slider {
             &.img{
                 width: 100%;
@@ -30,11 +37,4 @@
                 color: pink;
             }
         }
-    }
-}
-
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
-    top: 60px;
-    right: 0!important;
-    left: unset!important;
 }

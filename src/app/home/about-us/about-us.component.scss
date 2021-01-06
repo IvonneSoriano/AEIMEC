@@ -1,0 +1,103 @@
+.aboutUs {
+    min-height: 100vh;
+    // background-color: aqua;
+
+    .sutitle {
+        height: 385px;
+        position: relative;
+
+        .img {
+            height: 385px;
+            background-color: #ddd;
+        }
+
+        .info {
+            position: absolute;
+            background: salmon;
+            height: 225px;
+            max-width: 510px;
+            top: 50%;
+            padding: 25px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            p {
+                background-color: sandybrown;
+                // max-width: 455px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .generalInfo {
+        padding: 30px 60px;
+        background-color: yellow;
+        justify-content: space-between;
+
+        &>div {
+            p {
+                max-width: 400px;
+            }
+        }
+    }
+
+    .membersInfo {
+        position: relative;
+
+        .members {
+            padding: 20px 60px;
+
+            .title {
+                display: flex;
+                position: relative;
+                justify-content: space-between;
+                align-items: center;
+
+                .navigation {
+                    &>button {
+
+                        margin-right: 10px;
+                        border: none;
+                        background-color: transparent;
+                        cursor: pointer;
+                        outline: none !important;
+
+                        &:last-of-type {
+                            margin-right: 0;
+                        }
+
+                        img {
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+
+            .member {
+
+                background-size: cover;
+
+                .img {
+                    height: 200px;
+                    border: 3px solid #ccc;
+
+                    img {
+                        max-height: 100%;
+                    }
+                }
+
+                .info {
+                    padding: 15px 20px;
+                    text-align: center;
+                }
+            }
+        }
+        .ad{
+            background-color: #8B8B8B;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 60px;
+        }
+    }
+}

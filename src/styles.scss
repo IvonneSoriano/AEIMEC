@@ -45,3 +45,16 @@ li {
         padding: 0!important;
     }
 }
+
+.swiper-pagination-bullet{
+    display: inline-block;
+   width: 12px!important; 
+   height: 12px!important;
+   border: 1px solid #1a1a1a!important;
+   background-color: transparent;
+   border-radius: 50%;
+   margin-right: 20px;
+   &:last-of-type{
+       margin-right: 0;
+   }
+}
