@@ -8,6 +8,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { HomeSliderComponent } from './home-slider/home-slider.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -15,7 +16,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
 };
 
 @NgModule({
-  declarations: [HomeComponent, HomeSliderComponent, AboutUsComponent],
+  declarations: [HomeComponent, HomeSliderComponent, AboutUsComponent, ContactUsComponent],
   imports: [
     CommonModule,
     SwiperModule,

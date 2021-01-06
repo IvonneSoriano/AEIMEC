@@ -1,0 +1,19 @@
+<section class="contactUs">
+    <div class="info">
+        <h2 class="m-0">{{data.title}}</h2>
+        <div class="img">
+            <!-- <img src="" alt=""> -->
+        </div>
+        <div class="footer">
+            <div class="socialNet">
+                <ng-container *ngFor="let item of data.socialNetworks">
+                    <a [href]="item.url" class="social">
+                        <img [src]="item.img" [alt]="item.name">
+                    </a>
+                </ng-container>
+            </div>
+            <button>{{data.email}}</button>
+        </div>
+
+    </div>
+</section>

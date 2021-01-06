@@ -13,7 +13,7 @@
 
         .info {
             position: absolute;
-            background: salmon;
+            background: rgba($color: #000000, $alpha: 0.10);
             height: 225px;
             max-width: 510px;
             top: 50%;
@@ -22,7 +22,6 @@
             transform: translate(-50%, -50%);
 
             p {
-                background-color: sandybrown;
                 // max-width: 455px;
                 margin: 0 auto;
             }
@@ -31,7 +30,7 @@
 
     .generalInfo {
         padding: 30px 60px;
-        background-color: yellow;
+        background-color: rgba($color: #8B8B8B, $alpha: 0.2);
         justify-content: space-between;
 
         &>div {

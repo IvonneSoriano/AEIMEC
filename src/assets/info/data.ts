@@ -83,4 +83,37 @@ export const aboutUs = {
         }
     ]
     }
-}
+};
+
+
+
+/*Aquí va la información que saldrá en la parte del Home, especificamente donde está el contactUs */
+export const contatUs = {
+    /*Aquí colocamos el título de la sección*/
+    title:"Contáctanos",
+    /*Se añade la dirección de la imagen que aparecerá en la parte de contactUs */
+    img: "",
+    /*Aquí debemos agregar las redes sociales que queremos que aparezcan */
+    socialNetworks: [
+        /*  • Cabe resaltar que debemos colocar el nombre de la red social, el cual aparecerá en el alt de la imagen - name
+            • Además, se debe colocar la dirección a la que nos redijirá el botón - url 
+            • Y se agregará la dirección de la imagen que usaremos - img*/
+        {
+            name: "Facebook",
+            url: "Facebook.com",
+            img: "assets/img/facebook.svg"
+        },
+        {
+            name: "Instagram",
+            url: "Facebook.com",
+            img: "assets/img/instagram.svg"
+        },
+        {
+            name: "WhatsApp",
+            url: "Facebook.com",
+            img: "assets/img/whatsapp.svg"
+        }
+    ],
+    /*Aquí colocamos un email de contacto */
+    email: "contact@aeimec.udb.edu.sv"
+};

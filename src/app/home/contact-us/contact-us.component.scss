@@ -1,0 +1,48 @@
+.contactUs {
+    height: 100vh;
+    // background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .info {
+        background-color: yellow;
+        // width: 950px;    
+
+        padding: 17px 45px;
+
+        .img {
+            margin: 20px 0;
+            width: 860px;
+            height: 270px;
+            background-color: yellowgreen;
+        }
+
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .socialNet {
+                .social {
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    border: none;
+                    outline: none !important;
+                    cursor: pointer;
+                    padding: 0!important;
+                    background-color: transparent;
+                    margin-right: 20px;
+                    &:last-of-type{
+                        margin-right: 0;
+                    }
+
+                    img {
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+}
