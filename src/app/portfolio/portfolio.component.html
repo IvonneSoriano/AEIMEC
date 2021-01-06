@@ -1,0 +1,40 @@
+<section class="portfolio">
+    <div class="projects">
+        <h1 class="m-0 h1">{{data.title}}</h1>
+        <p class="mb-4">{{data.description}}
+        </p>
+    </div>
+        <div class="sliders">
+            <div class="swiper-container" [swiper]="config" [(index)]="index">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider" *ngFor="let slider of projects" >
+                        <div class="project" style="background-image: url({{slider.img}});">
+ <!-- <div class="img">
+                            <img [src]="slider.img" [alt]="slider.name">
+                        </div> -->
+                        <div class="info">
+                            <h4 class="m-0 h4">{{slider.name}}</h4>
+                            <p class="m-0">{{slider.brand}}</p>
+                        </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+    <div class="colaborations">
+        <h2 class="mb-0 h3">{{colaborations.title}}</h2>
+
+        <div class="swiper-container" [swiper]="configColab" [(index)]="indexColab">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide colab" *ngFor="let slider of colaborations.partners">
+                    <div class="img">
+                        <img [src]="slider.img" [alt]="slider.name">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

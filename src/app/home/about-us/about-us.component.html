@@ -1,32 +1,19 @@
-<section class="aboutUs container-fluid">
+<section class="aboutUs container-fluid" id="aboutUs">
     <div class="sutitle row">
         <div class="col-lg-6 img">
 
         </div>
         <div class="info">
-            <h2>Title 02</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet id tristique urna, nibh cursus euismod
-                nisl. Molestie felis pretium vitae fermentum elit tellus. Quis aliquam ac pellentesque pulvinar viverra
-                ridiculus sit. Id leo arcu a ullamcorper fames quis pretium tempus est. Aliquet ultrices duis non cursus
-                volutpat sed eget id potenti.</p>
+            <h2 class="m-0 h2 spaceMono mb-2">{{subtitle.title}}</h2>
+            <p>{{subtitle.description}}</p>
         </div>
 
     </div>
     <div class="generalInfo row">
-        <div class="text">
-            <h3>Misión</h3>
+        <div class="text" *ngFor="let item of generalInfo">
+            <h3 class="m-0 h3 poppins">{{item.title}}</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis
-                interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque
-                malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis.
-            </p>
-        </div>
-        <div class="text">
-            <h3>Visión</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis
-                interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque
-                malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis.
+                {{item.description}}
             </p>
         </div>
 
@@ -35,7 +22,7 @@
         <div class="members">
             
         <div class="title">
-            <h3>{{members.title}}</h3>
+            <h3 class="m-0 h3 poppins">{{members.title}}</h3>
             <div class="navigation d-flex">
                 <button type="button" class="button-prev">
                     <img src="assets/img/left.svg" alt="Prev">
@@ -50,10 +37,10 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide member" *ngFor="let slider of members.members">
                 <div class="img">
-                    <img [src]="slider.img" alt="">
+                    <img [src]="slider.img" [alt]="slider.job">
                 </div>
                 <div class="info">
-                    <h4 class="m-0">{{slider.fullname}}</h4>
+                    <h4 class="m-0 h4">{{slider.fullname}}</h4>
                     <p class="m-0">{{slider.job}}</p>
                   </div>
               </div>

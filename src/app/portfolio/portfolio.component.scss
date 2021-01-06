@@ -1,0 +1,61 @@
+.portfolio {
+    .projects {
+
+        padding: 60px 40px 0px;
+    }
+
+        .sliders {
+            // max-width: 1030px;
+            // background-color: pink;
+            margin-bottom: 80px;
+            padding: 0 30px;
+
+            .slider {
+                
+                // padding: 20px;
+                // background-color: yellow;
+                border-radius: 18px;
+                .project{
+                    margin:20px auto;
+                    height: 400px;
+                    width: 290px;
+                position: relative;
+                    @extend .slider;
+                    .info{
+                        color:white;
+                        position: absolute;
+                        bottom: 30px;
+                        left: 0;
+                        right: 0;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                }
+               
+            
+        }
+    }
+
+    .colaborations {
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        padding: 35px 80px;
+
+        .colab {
+
+            border: 3px solid #CCCCCC;
+
+            .img {
+                height: 150px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+        }
+    }
+
+}

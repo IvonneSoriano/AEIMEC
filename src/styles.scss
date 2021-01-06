@@ -1,4 +1,5 @@
 @import "~swiper/swiper-bundle";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono:wght@700&display=swap');
 
 
 
@@ -16,45 +17,91 @@ li {
     list-style: none !important;
 }
 
-.m{
-    &-0{
+.m {
+    &-0 {
         margin: 0;
     }
 }
+
 /*MARGIN BOTTOM*/
-.mb{
-    &-2{
+.mb {
+    &-2 {
         margin-bottom: 20px;
     }
-    &-4{
+
+    &-4 {
         margin-bottom: 40px;
     }
-    &-6{
+
+    &-6 {
         margin-bottom: 60px;
     }
-    &-8{
+
+    &-8 {
         margin-bottom: 80px;
     }
-    &-18{
+
+    &-18 {
         margin-bottom: 180px;
     }
-    
+
 }
-.p{
-    &-0{
-        padding: 0!important;
+
+.p {
+    &-0 {
+        padding: 0 !important;
     }
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     display: inline-block;
-   width: 12px!important; 
-   height: 12px!important;
-   border: 1px solid #1a1a1a!important;
-   background-color: transparent;
-   border-radius: 50%;
-   margin-right: 20px;
-   &:last-of-type{
-       margin-right: 0;
-   }
+    width: 12px !important;
+    height: 12px !important;
+    border: 1px solid #1a1a1a !important;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-right: 20px;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+.spaceMono {
+    font-family: 'Space Mono', monospace;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h {
+    &1 {
+        font-size: 48px;
+        line-height: 71px;
+    }
+
+    &2 {
+        font-size: 36px;
+        line-height: 53px;
+    }
+
+    &3 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    &4 {
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+
+    }
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
 }

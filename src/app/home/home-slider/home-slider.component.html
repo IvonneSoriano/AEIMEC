@@ -1,4 +1,4 @@
-<section class="home">
+<section class="home" id="Home">
   <div class="pagination"></div>
   <div  class="swiper-container" [swiper]="config" [(index)]="index">
   
@@ -7,7 +7,7 @@
         <div class="swiper-slide slider img" *ngFor="let slider of data.sliders"  >
       
           <div class="info">
-            <h2>{{slider.title}}</h2>
+            <h2 class="h1 spaceMono">{{slider.title}}</h2>
             <p>{{slider.description}}</p>
           </div>
         </div>

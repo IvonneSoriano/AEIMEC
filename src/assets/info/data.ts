@@ -46,38 +46,38 @@ export const aboutUs = {
             description: "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis."
         }
     ],
-    /*Aquí se debe colocar la información d elos mimebros */
+    /*Aquí se debe colocar la información de los mimebros */
     members: {
         title: "Miembros",
         members: [
         
         {
-            fullname: "Nombe Apellido",
+            fullname: "Nombre Apellido",
             job: "Posición",
             img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
         },
         {
-            fullname: "Nombe Apellido",
+            fullname: "Nombre Apellido",
             job: "Posición",
             img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
         },
         {
-            fullname: "Nombe Apellido",
+            fullname: "Nombre Apellido",
             job: "Posición",
             img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
         },
         {
-            fullname: "Nombe Apellido",
+            fullname: "Nombre Apellido",
             job: "Posición",
             img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
         },
         {
-            fullname: "Nombe Apellido",
+            fullname: "Nombre Apellido",
             job: "Posición",
             img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
         },
         {
-            fullname: "Nombe Apellido",
+            fullname: "Nombre Apellido",
             job: "Posición",
             img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
         }
@@ -96,24 +96,145 @@ export const contatUs = {
     /*Aquí debemos agregar las redes sociales que queremos que aparezcan */
     socialNetworks: [
         /*  • Cabe resaltar que debemos colocar el nombre de la red social, el cual aparecerá en el alt de la imagen - name
-            • Además, se debe colocar la dirección a la que nos redijirá el botón - url 
+            • Además, se debe colocar la dirección a la que nos redijirá el botón | Debemos tomar en cuenta que se debe agregar el HTTP, como en el ejemplo - url 
             • Y se agregará la dirección de la imagen que usaremos - img*/
         {
             name: "Facebook",
-            url: "Facebook.com",
+            url: "https://www.facebook.com/",
             img: "assets/img/facebook.svg"
         },
         {
             name: "Instagram",
-            url: "Facebook.com",
+            url: "https://www.facebook.com/",
             img: "assets/img/instagram.svg"
         },
         {
             name: "WhatsApp",
-            url: "Facebook.com",
+            url: "https://www.facebook.com/",
             img: "assets/img/whatsapp.svg"
         }
     ],
     /*Aquí colocamos un email de contacto */
     email: "contact@aeimec.udb.edu.sv"
+};
+
+/*Aquí va la información que saldrá en la parte del Portafolio*/
+export const portfolio = {
+    /*Esta info es para la página general de portafolio */
+    portfolio:{
+        title: "Portafolio",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum sit urna, tincidunt sollicitudin. Turpis vel, gravida odio magna tellus dui. Vehicula accumsan tellus elementum arcu aliquet augue eleifend congue auctor. Massa eget vel euismod sed sit nec pretium gravida in. Nunc nulla interdum pharetra velit semper. Nisl, neque, vulputate euismod risus, fermentum. Lacus in quis faucibus tortor eu."
+    },
+    /*Aquí deben colocarl todos los proyectos que tengan, con la siguiente información
+        • name = Nombre del proyecto
+        • brand = marca
+        • img = Ruta de la imagen que se mostrará
+        • description = Descripción del proyecto
+     */
+    projects: [
+        {
+            name: "Nombre del proyecto 1",
+            brand: "Marca",
+            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
+            galery: [
+                {
+                    /*Se añade un nombre */
+                    name:"Imagen 1",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: ""
+                }
+            ]
+        },
+        {
+            name: "Nombre del proyecto 2",
+            brand: "Marca",
+            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
+            galery: [
+                {
+                    /*Se añade un nombre */
+                    name:"Imagen 1",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: ""
+                }
+            ]
+        },
+        {
+            name: "Nombre del proyecto 3",
+            brand: "Marca",
+            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
+            galery: [
+                {
+                    /*Se añade un nombre */
+                    name:"Imagen 1",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: ""
+                }
+            ]
+        },
+        {
+            name: "Nombre del proyecto 4",
+            brand: "Marca",
+            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
+            galery: [
+                {
+                    /*Se añade un nombre */
+                    name:"Imagen 1",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: ""
+                }
+            ]
+        },
+        {
+            name: "Nombre del proyecto 5",
+            brand: "Marca",
+            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
+            galery: [
+                {
+                    /*Se añade un nombre */
+                    name:"Imagen 1",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: ""
+                }
+            ]
+        }
+        
+    ],
+    /*Este apartado es para la sección de colaboraciones */
+    colaborations:{
+        title: "Colaboraciones",
+        /*Se añade el nombre de los partners, así como su logo */
+        partners:[
+            {
+                name:"Partner 1",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            },
+            {
+                name:"Partner 2",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            },
+            {
+                name:"Partner 3",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            },
+            {
+                name:"Partner 4",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            },
+            {
+                name:"Partner 5",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            }
+
+        ]
+    }
 };

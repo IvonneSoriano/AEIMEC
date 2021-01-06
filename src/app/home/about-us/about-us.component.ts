@@ -13,29 +13,6 @@ export class AboutUsComponent implements OnInit {
   generalInfo;
   members;
   index;
-  // config: SwiperConfigInterface = {
-  //   direction: 'horizontal',
-  //   slidesPerView: 5,
-  //   slideToClickedSlide: true,
-  //   mousewheel: true,
-  //   scrollbar: false,
-  //   watchSlidesProgress: false,
-  //   keyboard: true,
-  //   pagination: false,
-  //   loop: true,
-  //   roundLengths: true,
-  //   spaceBetween: 0,
-  //   navigation: {
-  //     nextEl: '.button-next',
-  //     prevEl: '.button-prev',
-  //   },
-  //   breakpoints: {
-  //       // when window width is >= 320px
-  //       320: {
-  //           slidesPerView: 1
-  //       }
-  //   }
-  // };
 
   config: SwiperConfigInterface = {
     slidesPerView: 5,
