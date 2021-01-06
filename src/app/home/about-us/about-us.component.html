@@ -50,8 +50,10 @@
         </div>
 
         <div class="ad row">
-            <p>Conviértete en miembro de AEIMEC UDB</p>
-            <button type="button">Únete ahora</button>
+            <p>{{members.ad.title}}</p>
+            <a [href]="members.ad.url">
+            <button type="button">{{members.ad.btnInfo}}</button>
+        </a>
         </div>
     </div>
 

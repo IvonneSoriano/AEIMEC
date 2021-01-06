@@ -1,1 +1,40 @@
-<p>project works!</p>
+<section class="project">
+    <div class="imgHero" style="background-image: url({{project.img}});">
+        <button type="button" class="btn back">
+            <a [routerLink]="[ '/portfolio' ]">
+                <img src="assets/img/back.svg" alt="">
+            </a>
+        </button>
+    </div>
+    <div class="info">
+        <h1 class="m-0 h2">{{project.name}}</h1>
+        <p>{{project.brand}}</p>
+        <p>
+            {{project.description}}
+        </p>
+        <div class="mt-4 gallery">
+            <div class="mb-2 title d-flex ">
+                <h3 class="m-0 h3">Galería</h3>
+                <div class="navigation d-flex">
+                    <button type="button" class="button-prev">
+                        <img src="assets/img/left.svg" alt="Prev">
+                    </button>
+                    <button type="button" class="button-next">
+                        <img src="assets/img/right.svg" alt="Next">
+                    </button>
+                </div>
+            </div>
+
+            <div class="swiper-container" [swiper]="config" [(index)]="index">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider" *ngFor="let slider of project.galery">
+                        <div class="img">
+                            <img [src]="slider.img" [alt]="slider.name">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

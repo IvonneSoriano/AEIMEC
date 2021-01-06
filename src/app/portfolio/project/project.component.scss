@@ -1,0 +1,50 @@
+.project{
+    .imgHero{
+        height: 320px;
+        width: 100%;
+        background-color: turquoise;
+        position: relative;
+        .back{
+            position: absolute;
+            top: 60px;
+            left: 40px;
+            img{
+                height: 54px;
+                width: 54px;
+            }
+        }
+    }
+    .info{
+        padding: 20px 40px;
+        .gallery{
+            .title{
+                justify-content: space-between;
+                .navigation {
+                    &>button {
+    
+                        margin-right: 10px;
+                        border: none;
+                        background-color: transparent;
+                        cursor: pointer;
+                        outline: none !important;
+    
+                        &:last-of-type {
+                            margin-right: 0;
+                        }
+    
+                        img {
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+       
+            .slider{
+                width: 190px;
+                height: 200px;
+                background-color: pink;
+            }
+        }
+    }
+}

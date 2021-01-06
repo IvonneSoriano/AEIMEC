@@ -1,6 +1,6 @@
 /*Aquí va la información que saldrá en la parte del Home, especificamente donde está el slider */
 export const home = {
-    sliders:[
+    sliders: [
         {
             /*Aquí debemos colocar una ruta o url de imagen */
             img: "https://image.freepik.com/vector-gratis/robot-estructura-metalica-ai-inteligencia-artificial-forma-cyborg-o-bot-cerebro-mano-robotica-cerebro-digital_127544-851.jpg",
@@ -50,38 +50,46 @@ export const aboutUs = {
     members: {
         title: "Miembros",
         members: [
-        
-        {
-            fullname: "Nombre Apellido",
-            job: "Posición",
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
-        },
-        {
-            fullname: "Nombre Apellido",
-            job: "Posición",
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
-        },
-        {
-            fullname: "Nombre Apellido",
-            job: "Posición",
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
-        },
-        {
-            fullname: "Nombre Apellido",
-            job: "Posición",
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
-        },
-        {
-            fullname: "Nombre Apellido",
-            job: "Posición",
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
-        },
-        {
-            fullname: "Nombre Apellido",
-            job: "Posición",
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+
+            {
+                fullname: "Nombre Apellido",
+                job: "Posición",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            },
+            {
+                fullname: "Nombre Apellido",
+                job: "Posición",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            },
+            {
+                fullname: "Nombre Apellido",
+                job: "Posición",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            },
+            {
+                fullname: "Nombre Apellido",
+                job: "Posición",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            },
+            {
+                fullname: "Nombre Apellido",
+                job: "Posición",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            },
+            {
+                fullname: "Nombre Apellido",
+                job: "Posición",
+                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            }
+        ],
+        /*Esta es la info que va en el apartado de AD */
+        ad:{
+            title: "Conviértete en miembro de AEIMEC UDB",
+            /*Se coloca la dirección a donde nos redirigirá el botón */
+            url: "https://www.facebook.com/aeimecUDB/",
+            /*Aquí se coloca lo que se ve en el botón */
+            btnInfo: "Únete ahora"
         }
-    ]
     }
 };
 
@@ -90,30 +98,9 @@ export const aboutUs = {
 /*Aquí va la información que saldrá en la parte del Home, especificamente donde está el contactUs */
 export const contatUs = {
     /*Aquí colocamos el título de la sección*/
-    title:"Contáctanos",
+    title: "Contáctanos",
     /*Se añade la dirección de la imagen que aparecerá en la parte de contactUs */
     img: "",
-    /*Aquí debemos agregar las redes sociales que queremos que aparezcan */
-    socialNetworks: [
-        /*  • Cabe resaltar que debemos colocar el nombre de la red social, el cual aparecerá en el alt de la imagen - name
-            • Además, se debe colocar la dirección a la que nos redijirá el botón | Debemos tomar en cuenta que se debe agregar el HTTP, como en el ejemplo - url 
-            • Y se agregará la dirección de la imagen que usaremos - img*/
-        {
-            name: "Facebook",
-            url: "https://www.facebook.com/",
-            img: "assets/img/facebook.svg"
-        },
-        {
-            name: "Instagram",
-            url: "https://www.facebook.com/",
-            img: "assets/img/instagram.svg"
-        },
-        {
-            name: "WhatsApp",
-            url: "https://www.facebook.com/",
-            img: "assets/img/whatsapp.svg"
-        }
-    ],
     /*Aquí colocamos un email de contacto */
     email: "contact@aeimec.udb.edu.sv"
 };
@@ -121,11 +108,12 @@ export const contatUs = {
 /*Aquí va la información que saldrá en la parte del Portafolio*/
 export const portfolio = {
     /*Esta info es para la página general de portafolio */
-    portfolio:{
+    portfolio: {
         title: "Portafolio",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum sit urna, tincidunt sollicitudin. Turpis vel, gravida odio magna tellus dui. Vehicula accumsan tellus elementum arcu aliquet augue eleifend congue auctor. Massa eget vel euismod sed sit nec pretium gravida in. Nunc nulla interdum pharetra velit semper. Nisl, neque, vulputate euismod risus, fermentum. Lacus in quis faucibus tortor eu."
     },
     /*Aquí deben colocarl todos los proyectos que tengan, con la siguiente información
+        • url = como será la dirección en la barra de redireccionamiento
         • name = Nombre del proyecto
         • brand = marca
         • img = Ruta de la imagen que se mostrará
@@ -133,6 +121,7 @@ export const portfolio = {
      */
     projects: [
         {
+            url: "1",
             name: "Nombre del proyecto 1",
             brand: "Marca",
             img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
@@ -141,13 +130,21 @@ export const portfolio = {
             galery: [
                 {
                     /*Se añade un nombre */
-                    name:"Imagen 1",
+                    name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
-                    img: ""
+                    img: "https://image.freepik.com/vector-gratis/herramientas_24908-54114.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 2",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "https://image.freepik.com/vector-gratis/paquete-iconos-herramientas-construccion_24908-59860.jpg"
                 }
+
             ]
         },
         {
+            url: "2",
             name: "Nombre del proyecto 2",
             brand: "Marca",
             img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
@@ -156,13 +153,14 @@ export const portfolio = {
             galery: [
                 {
                     /*Se añade un nombre */
-                    name:"Imagen 1",
+                    name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
                     img: ""
                 }
             ]
         },
         {
+            url: "3",
             name: "Nombre del proyecto 3",
             brand: "Marca",
             img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
@@ -171,13 +169,14 @@ export const portfolio = {
             galery: [
                 {
                     /*Se añade un nombre */
-                    name:"Imagen 1",
+                    name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
                     img: ""
                 }
             ]
         },
         {
+            url: "4",
             name: "Nombre del proyecto 4",
             brand: "Marca",
             img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
@@ -186,13 +185,14 @@ export const portfolio = {
             galery: [
                 {
                     /*Se añade un nombre */
-                    name:"Imagen 1",
+                    name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
                     img: ""
                 }
             ]
         },
         {
+            url: "5",
             name: "Nombre del proyecto 5",
             brand: "Marca",
             img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
@@ -201,40 +201,67 @@ export const portfolio = {
             galery: [
                 {
                     /*Se añade un nombre */
-                    name:"Imagen 1",
+                    name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
                     img: ""
                 }
             ]
         }
-        
+
     ],
     /*Este apartado es para la sección de colaboraciones */
-    colaborations:{
+    colaborations: {
         title: "Colaboraciones",
         /*Se añade el nombre de los partners, así como su logo */
-        partners:[
+        partners: [
             {
-                name:"Partner 1",
+                name: "Partner 1",
                 img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
             },
             {
-                name:"Partner 2",
+                name: "Partner 2",
                 img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
             },
             {
-                name:"Partner 3",
+                name: "Partner 3",
                 img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
             },
             {
-                name:"Partner 4",
+                name: "Partner 4",
                 img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
             },
             {
-                name:"Partner 5",
+                name: "Partner 5",
                 img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
             }
 
         ]
     }
 };
+
+export const menu = {
+    nav: ["Home", "Nosotros", "Contáctenos", "Portafolio", "We Are"],
+    footer: "All Right Reserved 2020."
+}
+
+/*Aquí se colocarán todas las redes sociales que hay */
+export const socialNetworks = [
+    /*     • Cabe resaltar que debemos colocar el nombre de la red social, el cual aparecerá en el alt de la imagen - name
+           • Además, se debe colocar la dirección a la que nos redijirá el botón | Debemos tomar en cuenta que se debe agregar el HTTP, como en el ejemplo - url 
+           • Y se agregará la dirección de la imagen que usaremos - img*/
+    {
+        name: "Facebook",
+        url: "https://www.facebook.com/",
+        img: "assets/img/facebook.svg"
+    },
+    {
+        name: "Instagram",
+        url: "https://www.facebook.com/",
+        img: "assets/img/instagram.svg"
+    },
+    {
+        name: "WhatsApp",
+        url: "https://www.facebook.com/",
+        img: "assets/img/whatsapp.svg"
+    }
+]

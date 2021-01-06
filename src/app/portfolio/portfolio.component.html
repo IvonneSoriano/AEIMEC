@@ -8,6 +8,7 @@
             <div class="swiper-container" [swiper]="config" [(index)]="index">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slider" *ngFor="let slider of projects" >
+                        <a [routerLink]="[ '/portfolio/', slider.url]">
                         <div class="project" style="background-image: url({{slider.img}});">
  <!-- <div class="img">
                             <img [src]="slider.img" [alt]="slider.name">
@@ -17,7 +18,7 @@
                             <p class="m-0">{{slider.brand}}</p>
                         </div>
                         </div>
-                       
+                        </a>
                     </div>
                 </div>
             </div>

@@ -1,22 +1,30 @@
 <section class="nav">
     <div class="logo mb-6">
-     <img src="assets/img/logo.svg" alt="Logo de AEIMEC">
+        <a [routerLink]="[ '' ]">
+        <img src="assets/img/logo.svg" alt="Logo de AEIMEC">
+    </a>
     </div>
     <nav class="mb-8">
         <li class=""><a [routerLink]="[ '']">Home</a></li>
         <li class=""><a href="#aboutUs">Nosotros</a></li>
         <li class=""><a href="#">Contáctenos</a></li>
         <li class=""><a [routerLink]="[ '/portfolio']">Portafolio</a></li>
-        <li class=""><a  href="#">We Are</a></li>
+        <li class=""><a href="#">We Are</a></li>
     </nav>
     <div class="socialsNet d-flex mb-2">
-        <li class="socialNet"><a href="#"></a></li>
-        <li class="socialNet"><a href="#"></a></li>
-        <li class="socialNet"><a href="#"></a></li>
-        <li class="socialNet"><a href="#"></a></li>
+        <li class="socialNet" *ngFor="let item of socialNetworks">
+            <a [href]="item.url">
+                <img [src]="item.img" [alt]="item.name">
+            </a>
+        </li>
+        <li class="socialNet">
+            <a [href]="email">
+                <img src="assets/img/mail.svg" alt="Email">
+            </a>
+        </li>
     </div>
     <footer>
         <p class="m-0">&copy; AEIMEC</p>
-        <p class="m-0">All Right Reserved 2020.</p>
+        <p class="m-0">{{menu.footer}}</p>
     </footer>
 </section>

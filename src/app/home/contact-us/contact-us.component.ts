@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { contatUs } from '../../../assets/info/data';
+import { contatUs, socialNetworks } from '../../../assets/info/data';
 
 @Component({
   selector: 'app-contact-us',
@@ -8,9 +8,11 @@ import { contatUs } from '../../../assets/info/data';
 })
 export class ContactUsComponent implements OnInit {
 
+  socialNetworks;
   data;
   constructor() { 
     this.data = contatUs;
+    this.socialNetworks = socialNetworks;
   }
 
   ngOnInit(): void {

@@ -1,4 +1,4 @@
-.nav{
+.nav {
     height: 100vh;
     background-color: #C4C4C4;
     max-width: 370px;
@@ -8,28 +8,45 @@
     align-items: center;
     // justify-content: center;
     padding-top: 60px;
-    .logo{
+
+    .logo {
         width: 180px;
         height: 165px;
-        img{
+
+        img {
             max-width: 100%;
         }
-      
+
     }
-    nav{
-        &>li{
+
+    nav {
+        &>li {
             padding: 15px 0;
         }
     }
-    .socialsNet{
-        .socialNet{
-            width: 32px;
-            height: 32px;
-            background-color: #a2a2a2;
-            border-radius: 50%;
-            margin-right: 17px;
-            &:last-of-type{
-                margin-right: 0;
+
+    .socialsNet {
+        .socialNet {
+            a {
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                background-color: #a2a2a2;
+                border-radius: 50%;
+                margin-right: 17px;
+
+               
+
+                img {
+                    width: 32px;
+                height: 32px;
+                }
+            }
+            &:last-of-type {
+                a{
+                    margin-right: 0;
+                }
+                
             }
         }
     }
