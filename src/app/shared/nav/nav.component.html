@@ -1,16 +1,16 @@
-<section class="nav">
+<div class="nav">
     <div class="logo mb-6">
         <a [routerLink]="[ '' ]">
         <img src="assets/img/logo.svg" alt="Logo de AEIMEC">
     </a>
     </div>
-    <nav class="mb-8" id="navbar">
+    <nav class="mb-8" id="nav">
         <!-- <li class=""><a [routerLink]="[ '']">Home</a></li> -->
-        <li class=""><a href="#home">Home</a></li>
-        <li class=""><a href="#aboutUs">Nosotros</a></li>
-        <li class=""><a href="#contactUs">Contáctenos</a></li>
-        <li class=""><a [routerLink]="[ '/portfolio']">Portafolio</a></li>
-        <li class=""><a href="#">We Are</a></li>
+        <li class=""><a class="dot" data-scroll="home" href="#home">Home</a></li>
+        <li class=""><a class="dot" data-scroll="aboutUs" href="#aboutUs">Nosotros</a></li>
+        <li class=""><a class="dot" data-scroll="contactUs" href="#contactUs">Contáctenos</a></li>
+        <li class=""><a class="dot" [routerLink]="[ '/portfolio']">Portafolio</a></li>
+        <li class=""><a class="dot" href="#">We Are</a></li>
     </nav>
     <div class="socialsNet d-flex mb-2">
         <li class="socialNet" *ngFor="let item of socialNetworks">
@@ -28,4 +28,4 @@
         <p class="m-0">&copy; AEIMEC</p>
         <p class="m-0">{{menu.footer}}</p>
     </footer>
-</section>
+</div>

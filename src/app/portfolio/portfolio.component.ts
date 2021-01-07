@@ -19,6 +19,8 @@ export class PortfolioComponent implements OnInit {
     slidesPerView: 4,
     spaceBetween: 0,
     slidesPerGroup: 1,
+    centeredSlides: true,
+    slidesOffsetAfter: 60,
     loop: false,
     loopFillGroupWithBlank: true,
     navigation: {
@@ -34,9 +36,6 @@ export class PortfolioComponent implements OnInit {
       },
       1024: {
         slidesPerView: 3,
-      },
-      1250: {
-        slidesPerView: 4,
       },
       1920: {
         slidesPerView: 5,
