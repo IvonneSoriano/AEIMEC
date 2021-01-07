@@ -1,29 +1,37 @@
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
     <div class="projects">
         <h1 class="m-0 h1">{{data.title}}</h1>
         <p class="mb-4">{{data.description}}
         </p>
     </div>
-        <div class="sliders">
-            <div class="swiper-container" [swiper]="config" [(index)]="index">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slider" *ngFor="let slider of projects" >
-                        <a [routerLink]="[ '/portfolio/', slider.url]">
+    <div class="sliders">
+        <div class="navigation d-flex">
+            <button type="button" class="button-prev">
+                <img src="assets/img/left.svg" alt="Prev">
+            </button>
+            <button type="button" class="button-next">
+                <img src="assets/img/right.svg" alt="Next">
+            </button>
+        </div>
+        <div class="swiper-container" [swiper]="config" [(index)]="index">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slider" *ngFor="let slider of projects">
+                    <a [routerLink]="[ '/portfolio/', slider.url]">
                         <div class="project" style="background-image: url({{slider.img}});">
- <!-- <div class="img">
+                            <!-- <div class="img">
                             <img [src]="slider.img" [alt]="slider.name">
                         </div> -->
-                        <div class="info">
-                            <h4 class="m-0 h4">{{slider.name}}</h4>
-                            <p class="m-0">{{slider.brand}}</p>
+                            <div class="info">
+                                <h4 class="m-0 h4">{{slider.name}}</h4>
+                                <p class="m-0">{{slider.brand}}</p>
+                            </div>
                         </div>
-                        </div>
-                        </a>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
-   
+    </div>
+
     <div class="colaborations">
         <h2 class="mb-0 h3">{{colaborations.title}}</h2>
 

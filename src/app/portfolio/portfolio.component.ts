@@ -17,30 +17,19 @@ export class PortfolioComponent implements OnInit {
 
   config: SwiperConfigInterface = {
     slidesPerView: 4,
-    spaceBetween: 0,
+    // width: 1310,
+    spaceBetween: 40,
     slidesPerGroup: 1,
-    centeredSlides: true,
-    slidesOffsetAfter: 60,
+    centeredSlides: false,
+    slidesOffsetBefore:40,
+    slidesOffsetAfter: 40,
     loop: false,
     loopFillGroupWithBlank: true,
     navigation: {
       nextEl: '.button-next',
       prevEl: '.button-prev',
     },
-    breakpoints: {
-      768: {
-        slidesPerView: 1,
-      },
-      992: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-      1920: {
-        slidesPerView: 5,
-      },
-    }
+
   };
 
 

@@ -1,0 +1,23 @@
+/*COLORES*/
+$primaryLayout: #006FFF;
+$secondaryLayout: #04D88B;
+$whiteLayout: #F0F0F0;
+
+.bg {
+    &-ly {
+        &-Primary {
+            background-color: $primaryLayout;
+        }
+    }
+}
+
+.f {
+    &-ly {
+        &-Secondary {
+            color: $secondaryLayout;
+        }
+        &-White {
+            color: $whiteLayout;
+        }
+    }
+}

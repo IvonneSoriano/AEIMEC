@@ -32,10 +32,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.js",
-              "src/assets/js/scrollspy.js",
-              "src/assets/js/util.js",
-              "src/assets/js/bootstrap.bundle.min.js"
+              "node_modules/jquery/dist/jquery.js"
             ]
           },
           "configurations": {

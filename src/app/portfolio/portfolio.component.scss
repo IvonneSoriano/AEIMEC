@@ -6,9 +6,9 @@
 
         .sliders {
             // max-width: 1030px;
-            background-color: pink;
+            // background-color: pink;
             margin-bottom: 80px;
-            padding: 0 30px;
+            padding: 0 0 0 30px;
 
             .slider {
                 
@@ -18,7 +18,7 @@
                 .project{
                     margin:20px auto;
                     height: 400px;
-                    width: 290px;
+                    width: 100%;
                 position: relative;
                     @extend .slider;
                     .info{
@@ -30,9 +30,9 @@
                         width: 100%;
                         text-align: center;
                     }
-                    &:hover{
-                        transform: scale(1.05);
-                    }
+                    // &:hover{
+                    //     transform: scale(1.05);
+                    // }
                 }
                
             

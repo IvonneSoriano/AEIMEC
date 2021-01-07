@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { contatUs, menu, socialNetworks } from 'src/assets/info/data';
 
 import $ from 'jquery';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
@@ -12,24 +13,35 @@ import $ from 'jquery';
 export class NavComponent implements OnInit {
 
   socialNetworks;
+  facebook;
+  instagram;
+  whatsapp;
   email;
   menu;
-  constructor() {
+
+  constructor(private route: ActivatedRoute) {
     this.socialNetworks = socialNetworks;
-    this.email = "mailto:"+contatUs.email;
+    this.facebook = socialNetworks.facebook;
+    this.instagram = socialNetworks.instagram;
+    this.whatsapp = socialNetworks.whatsapp;
+    this.email = "mailto:" + contatUs.email;
     this.menu = menu;
-   }
+    // this.route.params.subscribe(p => {
+    //   alert(JSON.stringify(p)
+    // })
+
+  }
 
   ngOnInit(): void {
-    $(document).ready(function(){
-     
+    $(document).ready(function () {
+
       var link = $('#nav a.dot');
 
-      $(window).on('scroll', function(){
-       changedNav();
+      $(window).on('scroll', function () {
+        changedNav();
       });
-      
-      link.on('click', function(e) {
+
+      link.on('click', function (e) {
         var target = $($(this).attr('href'));
         $('html, body').animate({
           scrollTop: target.offset().top
@@ -38,17 +50,17 @@ export class NavComponent implements OnInit {
         e.preventDefault();
       });
 
-      function changedNav(){
+      function changedNav() {
         // alert("HOla");
         var sTop = $(window).scrollTop();
         // alert(sTop);
-        $('section').each(function() {
+        $('section').each(function () {
           // alert("Section");
           var id = $(this).attr('id'),
-          offset = $(this).offset().top-1,
-          height = $(this).height();
+            offset = $(this).offset().top - 1,
+            height = $(this).height();
           // alert(`Section ${id}`);
-          if(sTop >= offset && sTop < offset + height){
+          if (sTop >= offset && sTop < offset + height) {
             link.removeClass('active');
             $('#nav').find('[data-scroll="' + id + '"]').addClass('active');
             $('#nav').find('[data-scroll="' + id + '"]').addClass('active');
@@ -56,8 +68,10 @@ export class NavComponent implements OnInit {
           }
         });
       };
+
+      changedNav();
     });
   }
 
-  
+
 }
