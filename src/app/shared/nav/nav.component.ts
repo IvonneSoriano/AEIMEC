@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { contatUs, menu, socialNetworks } from 'src/assets/info/data';
 
 import $ from 'jquery';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
@@ -19,7 +19,7 @@ export class NavComponent implements OnInit {
   email;
   menu;
 
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute, private router: Router) {
     this.socialNetworks = socialNetworks;
     this.facebook = socialNetworks.facebook;
     this.instagram = socialNetworks.instagram;
@@ -58,14 +58,25 @@ export class NavComponent implements OnInit {
           // alert("Section");
           var id = $(this).attr('id'),
             offset = $(this).offset().top - 1,
+            
             height = $(this).height();
           // alert(`Section ${id}`);
+          // alert(sTop);
+          
+        //  var largo = $(document).height();
+        //  console.log(largo-(height+offset))
+          // if(id == "contactUs" && largo-(height+offset) <10){
+          //   console.log("Hola")
+          //   $(location).attr('href',"/portfolio");
+            
+          // }
           if (sTop >= offset && sTop < offset + height) {
             link.removeClass('active');
             $('#nav').find('[data-scroll="' + id + '"]').addClass('active');
             $('#nav').find('[data-scroll="' + id + '"]').addClass('active');
             // alert($('#nav').find('[data-scroll="' + id + '"]').addClass('active'));
           }
+        
         });
       };
 

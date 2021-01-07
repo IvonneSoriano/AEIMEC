@@ -1,7 +1,12 @@
+@import '../../assets/css/theme';
+
 .portfolio {
     .projects {
 
         padding: 60px 40px 0px;
+        h1{
+            color: $darkLayout;
+        }
     }
 
         .sliders {
@@ -40,14 +45,18 @@
     }
 
     .colaborations {
-        background-color: rgba($color: #000000, $alpha: 0.5);
+        background-color: $secondaryLayout;
         padding: 35px 80px;
+        h2{
+            text-align: center;
+        }
 
         .colab {
 
             border: 3px solid #CCCCCC;
 
             .img {
+                padding: 10px 20px;
                 height: 150px;
 
                 img {

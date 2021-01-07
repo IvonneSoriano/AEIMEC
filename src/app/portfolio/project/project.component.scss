@@ -1,3 +1,5 @@
+@import '../../../assets/css/theme';
+
 .project{
     .imgHero{
         height: 320px;
@@ -5,12 +7,17 @@
         background-color: turquoise;
         position: relative;
         .back{
+            outline: none!important;
+            background: transparent;
+            border: none;
+            cursor: pointer;
             position: absolute;
             top: 60px;
             left: 40px;
-            img{
+            .ico{
                 height: 54px;
                 width: 54px;
+                fill: $secondaryLayout;
             }
         }
     }
@@ -21,8 +28,8 @@
                 justify-content: space-between;
                 .navigation {
                     &>button {
-    
-                        margin-right: 10px;
+                        outline: none!important;
+                        margin-right: 30px;
                         border: none;
                         background-color: transparent;
                         cursor: pointer;
@@ -44,6 +51,9 @@
                 width: 190px;
                 height: 200px;
                 background-color: pink;
+                img{
+                    height: 100%;
+                }
             }
         }
     }
