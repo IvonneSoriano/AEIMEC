@@ -42,7 +42,7 @@ export const aboutUs = {
             description: "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis."
         },
         {
-            title: "Misión",
+            title: "Visión",
             description: "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis."
         }
     ],
@@ -245,23 +245,11 @@ export const menu = {
 }
 
 /*Aquí se colocarán todas las redes sociales que hay */
-export const socialNetworks = [
-    /*     • Cabe resaltar que debemos colocar el nombre de la red social, el cual aparecerá en el alt de la imagen - name
-           • Además, se debe colocar la dirección a la que nos redijirá el botón | Debemos tomar en cuenta que se debe agregar el HTTP, como en el ejemplo - url 
-           • Y se agregará la dirección de la imagen que usaremos - img*/
-    {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-        img: "assets/img/facebook.svg"
-    },
-    {
-        name: "Instagram",
-        url: "https://www.facebook.com/",
-        img: "assets/img/instagram.svg"
-    },
-    {
-        name: "WhatsApp",
-        url: "https://www.facebook.com/",
-        img: "assets/img/whatsapp.svg"
-    }
-]
+export const socialNetworks = {
+ /*     • Aquí solo colocaremos las url de las redes sociales*/
+           facebook: "https://www.facebook.com/",
+           instagram:  "https://www.facebook.com/",
+           whatsapp:  "https://www.facebook.com/"
+};
+   
+  
