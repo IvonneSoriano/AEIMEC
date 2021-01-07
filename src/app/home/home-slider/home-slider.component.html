@@ -1,24 +1,32 @@
 <section class="home" id="home">
   <div class="pagination"></div>
-  <div  class="swiper-container" [swiper]="config" [(index)]="index">
-  
+  <div class="swiper-container" [swiper]="config" [(index)]="index">
+
     <div class="swiper-wrapper">
       <!-- <div class="swiper-slide slider img" *ngFor="let slider of data.sliders" style="background-image: url({{slider.img}});"> -->
-        <div class="swiper-slide slider img" *ngFor="let slider of data.sliders"  >
-      
-          <div class="info">
-            <h2 class="h1 spaceMono">{{slider.title}}</h2>
-            <p>{{slider.description}}</p>
-          </div>
+      <div class="swiper-slide slider img" *ngFor="let slider of data.sliders"
+        style="background-image:  linear-gradient(180deg, rgba(25, 16, 81, 0) 29.69%, #191051 90.1%), url({{slider.img}});">
+
+        <div class="info">
+          <h2 class="h1 spaceMono">{{slider.title}}</h2>
+          <p class="m-0 spaceGrotesk">{{slider.description}}</p>
         </div>
-      
+      </div>
+
     </div>
   </div>
   <div class="scrollDown">
-    <p class="m-0">Scroll down</p>
-    <img src="assets/img/scrolldown.svg" alt="">
+    <p class="m-0 poppins">Scroll down</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.64 17.28" class="ico">
+      <title>scroll down</title>
+      <g id="Capa_2" data-name="Capa 2">
+        <g id="Capa_1-2" data-name="Capa 1">
+          <path
+            d="M14.72,11.54a.6.6,0,0,1-.85,0L3,.21a.76.76,0,0,0-1.08,0L.21,2a.77.77,0,0,0,0,1.09l13.64,14a.61.61,0,0,0,.85,0l14.69-14a.76.76,0,0,0,0-1.08L27.68.27a.77.77,0,0,0-1.09,0Z" />
+        </g>
+      </g>
+    </svg>
   </div>
-  
-       
-  </section>
-  
+
+
+</section>

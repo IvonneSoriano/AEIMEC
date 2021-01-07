@@ -1,6 +1,6 @@
 @import "~swiper/swiper-bundle";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Space+Grotesk:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+@import 'assets/css/theme';
 
 /* You can add global styles to this file, and also import other style files */
 body {
@@ -77,15 +77,29 @@ li {
 
 .swiper-pagination-bullet {
     display: inline-block;
-    width: 12px !important;
-    height: 12px !important;
-    border: 1px solid #1a1a1a !important;
-    background-color: transparent;
+    width: 6px !important;
+    height: 6px !important;
+    border: none!important;
+    background-color: $whiteLayout;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 45px;
+    position: relative;
 
     &:last-of-type {
         margin-right: 0;
+    }
+    &.swiper-pagination-bullet-active{
+        &::after{
+            position: absolute;
+            top: 50%;
+            border-radius: 50%;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            border: 1px solid $whiteLayout;
+            content: "";
+            width: 30px!important;
+            height: 30px!important;
+        }
     }
 }
 
@@ -95,6 +109,9 @@ li {
 
 .poppins {
     font-family: 'Poppins', sans-serif;
+}
+.spaceGrotesk{
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .h {
@@ -126,14 +143,15 @@ li {
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     line-height: 18px;
 }
 
 .btn {
     border: none;
-    background-color: transparent;
     outline: none !important;
     cursor: pointer;
+    border-radius: 6px;
+    min-width: 180px;
+    padding: 10px 16px;
 }

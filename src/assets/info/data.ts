@@ -42,7 +42,7 @@ export const aboutUs = {
             description: "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis."
         },
         {
-            title: "Misión",
+            title: "Visión",
             description: "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis."
         }
     ],

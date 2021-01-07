@@ -8,11 +8,16 @@ import { contatUs, socialNetworks } from '../../../assets/info/data';
 })
 export class ContactUsComponent implements OnInit {
 
-  socialNetworks;
+  facebook;
+  instagram;
+  whatsapp;
   data;
   constructor() { 
     this.data = contatUs;
-    this.socialNetworks = socialNetworks;
+    this.facebook = socialNetworks.facebook;
+    this.instagram = socialNetworks.instagram;
+    this.whatsapp = socialNetworks.whatsapp;
+   
   }
 
   ngOnInit(): void {
