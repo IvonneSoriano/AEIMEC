@@ -178,7 +178,7 @@ li {
         line-height: 18px;
     }
 
-    @media(max-width: 992px) {
+    @media(max-width: 1024px) {
         &1 {
             font-weight: 700;
             font-size: 36px;
@@ -211,7 +211,7 @@ p {
 }
 
 .btn {
-    border: none;
+    border: none!important;
     outline: none !important;
     cursor: pointer;
     border-radius: 6px;
