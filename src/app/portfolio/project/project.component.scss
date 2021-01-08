@@ -23,37 +23,72 @@
     }
     .info{
         padding: 20px 40px;
-        .gallery{
-            .title{
-                justify-content: space-between;
-                .navigation {
-                    &>button {
-                        outline: none!important;
-                        margin-right: 30px;
-                        border: none;
-                        background-color: transparent;
-                        cursor: pointer;
-                        outline: none !important;
-    
-                        &:last-of-type {
-                            margin-right: 0;
-                        }
-    
-                        img {
-                            width: 10px;
-                            height: 10px;
-                        }
+        p{
+            text-align: justify;
+        }
+    }
+    .gallery{
+        padding: 0px 40px;
+        .title{
+            justify-content: space-between;
+            .navigation {
+                &>button {
+                    outline: none!important;
+                    margin-right: 30px;
+                    border: none;
+                    background-color: transparent;
+                    cursor: pointer;
+                    outline: none !important;
+
+                    &:last-of-type {
+                        margin-right: 0;
+                    }
+
+                    img {
+                        width: 10px;
+                        height: 10px;
                     }
                 }
             }
-       
-            .slider{
-                width: 190px;
-                height: 200px;
-                background-color: pink;
-                img{
-                    height: 100%;
+        }
+   
+        .slider{
+            width: 190px;
+            height: 200px;
+            background-color: pink;
+            img{
+                height: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 1024px){
+        .imgHero{
+            .back{
+                top: 40px;
+                left: unset;
+                right: 40px;
+                .ico{
+                    height: 30px;
+                    width: 30px;
                 }
+            }
+        }
+        .gallery{
+            padding: 0px;
+            .title{
+                padding: 0 40px;
+            }
+            .slider{
+                width: unset;
+                height: 184px;
+            }
+        }
+    }
+    @media (max-width: 768px){
+        .imgHero{
+            .back{
+                right: 35px;
             }
         }
     }

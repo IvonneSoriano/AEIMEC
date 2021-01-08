@@ -13,7 +13,7 @@
                 <img src="assets/img/right.svg" alt="Next">
             </button>
         </div>
-        <div class="swiper-container" [swiper]="config" [(index)]="index">
+        <div class="swiper-container porta" [swiper]="config" [(index)]="index">
             <div class="swiper-wrapper">
                 <div class="swiper-slide slider" *ngFor="let slider of projects">
                     <a [routerLink]="[ '/portfolio/', slider.url]">
