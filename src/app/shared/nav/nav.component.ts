@@ -35,6 +35,13 @@ export class NavComponent implements OnInit {
   ngOnInit(): void {
     $(document).ready(function () {
 
+      $(".burguer").on("click", function(){
+        $(".nav").toggleClass("active");
+        // $(".nav").slideToggle();
+        // $(".menu").slideToggle();
+
+      });
+
       var link = $('#nav a.dot');
 
       $(window).on('scroll', function () {

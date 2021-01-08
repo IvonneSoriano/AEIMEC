@@ -1,8 +1,21 @@
 @import '../../../assets/css/theme';
 
+.burguer {
+    display: none;
+
+    @media (max-width: 992px) {
+        display: block;
+        z-index: 101;
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        background-color: $secondaryInteractive;
+    }
+}
+
 .nav {
     height: 100vh;
-    // background-color: #C4C4C4;
+    background-color: $primaryLayout;
     max-width: 370px;
     width: 370px;
     display: flex;
@@ -11,9 +24,14 @@
     // justify-content: center;
     padding: 60px 80px 0;
 
+    .burguerBack {
+        display: none;
+    }
+
     .logo {
         width: 180px;
         height: 165px;
+        margin-bottom: 60px;
 
         img {
             max-width: 100%;
@@ -21,65 +39,140 @@
 
     }
 
-    nav {
-        margin-bottom: 80px;
+    .menu {
 
-        &>li {
-            padding: 15px 0;
+        nav {
+            margin-bottom: 80px;
 
-            .dot {
-                color: $whiteLayout;
-                font-weight: 400;
-                font-size: 15px;
-                line-height: 1.1;
+            &>li {
+                padding: 15px 0;
 
-                &.active {
-                    color: $secondaryLayout;
-                    font-weight: 700;
+                .dot {
+                    color: $whiteLayout;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 1.1;
+
+                    &.active {
+                        color: $secondaryLayout;
+                        font-weight: 700;
+                    }
                 }
+            }
+
+        }
+
+        footer {
+            .socialsNet {
+                margin-bottom: 25px;
+
+                .socialNet {
+                    a {
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        text-align: center;
+                        border-radius: 50%;
+                        margin-right: 37px;
+
+                        .ico {
+                            fill: $whiteLayout;
+                            height: 18px;
+                        }
+
+
+                        img {
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+
+                    &:last-of-type {
+                        a {
+                            margin-right: 0;
+                        }
+
+                    }
+                }
+            }
+
+
+            color: $whiteLayout;
+
+            p {
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        bottom: 0;
+        height: 100vh;
+        z-index: 102;
+        padding: 40px;
+        max-width: unset;
+        transition: left 0.5s;
+        text-align: center;
+        width: 100%;
+        background-color: transparent;
+
+        .burguer {
+            display: block;
+            width: 25px;
+            height: 25px;
+            background-color: $secondaryInteractive;
+        }
+
+        .logo {
+            text-align: center;
+            display: none;
+            width: unset;
+            height: 20%;
+            margin-bottom: 30px;
+            img{
+                max-height: 100%;
+                max-width: unset;
             }
         }
 
-    }
-
-    .socialsNet {
-        margin-bottom: 25px;
-
-        .socialNet {
-            a {
-                display: inline-block;
-                width: 18px;
-                height: 18px;
-                text-align: center;
-                border-radius: 50%;
-                margin-right: 37px;
-
-                .ico {
-                    fill: $whiteLayout;
-                    height: 18px;
-                }
-
-
-                img {
-                    width: 18px;
-                    height: 18px;
-                }
-            }
-
-            &:last-of-type {
-                a {
-                    margin-right: 0;
-                }
-
+        .menu {
+            display: none;
+            background-color: $primaryLayout;
+            nav {
+                margin-bottom: 30px;
             }
         }
+        footer{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &.active {
+            background-color: $primaryLayout;
+            min-height: 100vh;
+            left: 0;
+            transition: left 0.5s;
+
+            .logo {
+                display: block;
+            }
+
+            .menu {
+                display: block;
+                background-color: $primaryLayout;
+            }
+
+        }
     }
-
-    footer {
-        color: $whiteLayout;
-
-        p {
-            margin-bottom: 5px;
+    @media(max-width: 768px){
+        footer{
+         flex-direction: column;
+         .socialsNet{
+             justify-content: center;
+         }
         }
     }
 
