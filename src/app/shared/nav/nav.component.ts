@@ -37,6 +37,7 @@ export class NavComponent implements OnInit {
 
       $(".burguer").on("click", function(){
         $(".nav").toggleClass("active");
+        $(".burguer").toggleClass("active");
         // $(".nav").slideToggle();
         // $(".menu").slideToggle();
 

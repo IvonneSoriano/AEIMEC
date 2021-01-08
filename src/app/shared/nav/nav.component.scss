@@ -2,14 +2,44 @@
 
 .burguer {
     display: none;
+    outline: none!important;
+    border: none;
+ 
+    // background-color: pink;
+    span {
+        display: block;
+        background: $secondaryInteractive;
+        width: 25px;
+        margin-bottom: 5px;
+        height: 3px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
 
     @media (max-width: 1024px) {
-        display: block;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
         z-index: 100001;
         position: absolute;
         top: 40px;
         left: 40px;
-        background-color: $secondaryInteractive;
+        background: none;
+
+        // background-color: $secondaryInteractive;
+        &.active {
+            .line1 {
+                transform:rotate(-135deg) translate(-7px, -8px);
+            }
+            .line2{
+                transform: rotate(45deg);
+               opacity:0;
+              }
+              .line3{
+                transform: rotate(135deg) translate(-3px, 5px);
+              }
+        }
     }
 }
 
@@ -47,7 +77,8 @@
             &>li {
                 padding: 15px 0;
 
-                .dot, .dot1 {
+                .dot,
+                .dot1 {
                     color: $whiteLayout;
                     font-weight: 400;
                     font-size: 15px;
@@ -120,9 +151,16 @@
             display: block;
             width: 25px;
             height: 25px;
-            background-color: $secondaryInteractive;
+
+            // background-color: $secondaryInteractive;
+            .ico {
+                fill: $secondaryInteractive;
+                width: 25px;
+                height: 25px;
+            }
         }
-         .burguer {
+
+        .burguer {
             display: block;
             width: 25px;
             height: 25px;
@@ -135,7 +173,8 @@
             width: unset;
             height: 20%;
             margin-bottom: 30px;
-            img{
+
+            img {
                 max-height: 100%;
                 max-width: unset;
             }
@@ -144,11 +183,13 @@
         .menu {
             display: none;
             background-color: $primaryLayout;
+
             nav {
                 margin-bottom: 30px;
             }
         }
-        footer{
+
+        footer {
             display: flex;
             justify-content: space-between;
         }
@@ -168,12 +209,14 @@
 
         }
     }
-    @media(max-width: 768px){
-        footer{
-         flex-direction: column;
-         .socialsNet{
-             justify-content: center;
-         }
+
+    @media(max-width: 768px) {
+        footer {
+            flex-direction: column;
+
+            .socialsNet {
+                justify-content: center;
+            }
         }
     }
 
