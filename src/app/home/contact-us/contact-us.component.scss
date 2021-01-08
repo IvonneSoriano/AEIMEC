@@ -11,7 +11,7 @@
         background-color: $secondaryLayout;
         // width: 950px;    
         width: 95%;
-        padding: 17px 45px;
+        padding: 17px 40px;
         h2{
             color: $primaryDarkLayout;
         }
@@ -52,6 +52,14 @@
                 background-color: $primaryDarkLayout;
                 color: #FFF;
                 text-align: center;
+            }
+        }
+    }
+
+    @media(max-width: 1024px){
+        .footer {
+            .btn{
+                content: "HOLA";
             }
         }
     }
