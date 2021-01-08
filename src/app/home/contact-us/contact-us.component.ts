@@ -10,10 +10,12 @@ export class ContactUsComponent implements OnInit {
 
   facebook;
   instagram;
+  email;
   whatsapp;
   data;
   constructor() { 
     this.data = contatUs;
+    this.email = this.data.email;
     this.data.email = screen.width<=1024 ? "e-mail" : this.data.email;
     this.facebook = socialNetworks.facebook;
     this.instagram = socialNetworks.instagram;
