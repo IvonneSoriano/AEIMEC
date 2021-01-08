@@ -23,7 +23,7 @@
                 .project{
                     margin:20px auto;
                     height: 400px;
-                    width: 100%;
+                    width: 290px;
                 position: relative;
                     @extend .slider;
                     .info{
@@ -67,4 +67,23 @@
         }
     }
 
+    @media (max-width: 1024px) {
+        .projects{
+            padding: 100px 40px 0;
+        }
+        .colaborations {
+            padding: 35px;
+        }
+    }
+
+    @media (max-width: 768px) {
+    
+        .sliders {
+            padding: 0 40px ;
+            // .slider {
+             
+
+            // }
+        }
+    }
 }

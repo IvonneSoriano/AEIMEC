@@ -242,3 +242,10 @@ p {
         transform: rotate(360deg);
     }
 }
+
+.swiper-slide{
+    width: 320px!important;
+    @media (max-width:768px){
+        width: 290px!important;
+    }
+}
