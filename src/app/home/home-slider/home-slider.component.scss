@@ -25,7 +25,7 @@
             background-size: cover;
 
             .info {
-                max-width: 840px;
+                width: calc(100% - 30%);
                 left: 50%;
                 transform: translateX(-50%);
                 position: absolute;
@@ -36,7 +36,7 @@
                 }
 
                 &>p {
-                    width: 840px;
+                    width: 100%;
                     color: $whiteLayout;
                     font-size: 24px;
                     text-align: justify;

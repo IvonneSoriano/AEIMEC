@@ -16,7 +16,7 @@ export class PortfolioComponent implements OnInit {
   indexColab;
 
   config: SwiperConfigInterface = {
-    slidesPerView: 4,
+    slidesPerView: 1,
     // width: 1310,
     spaceBetween: 40,
     slidesPerGroup: 1,
@@ -29,33 +29,40 @@ export class PortfolioComponent implements OnInit {
       nextEl: '.button-next',
       prevEl: '.button-prev',
     },
+    breakpoints: {
+   
+      992: {
+        slidesPerView: 1,
+      },
+      1000: {
+        slidesPerView: 2
+      },
+      1250: {
+        slidesPerView: 3
+      },
+      1450: {
+        slidesPerView: 4
+      }
+    }
 
   };
 
 
   configColab: SwiperConfigInterface = {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 0,
     slidesPerGroup: 1,
     loop: false,
     breakpoints: {
-      768: {
-        slidesPerView: 1,
-      },
       992: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 20,
+        slidesPerView: 2
       },
       1250: {
-        slidesPerView: 4,
+        slidesPerView: 3
       },
-      1920: {
-        slidesPerView: 5,
-      },
+      1450: {
+        slidesPerView: 5
+      }
     }
   };
 

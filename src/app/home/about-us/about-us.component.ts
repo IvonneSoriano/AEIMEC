@@ -15,7 +15,7 @@ export class AboutUsComponent implements OnInit {
   index;
 
   config: SwiperConfigInterface = {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 0,
     slidesPerGroup: 1,
     loop: true,
@@ -23,6 +23,17 @@ export class AboutUsComponent implements OnInit {
     navigation: {
       nextEl: '.button-next',
       prevEl: '.button-prev',
+    },
+    breakpoints: {
+      992: {
+        slidesPerView: 2
+      },
+      1250: {
+        slidesPerView: 3
+      },
+      1450: {
+        slidesPerView: 5
+      }
     }
   };
 

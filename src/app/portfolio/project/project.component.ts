@@ -24,13 +24,24 @@ export class ProjectComponent implements OnInit {
   }
   index;
   config: SwiperConfigInterface = {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 0,
     slidesPerGroup: 1,
     loop: false,
     navigation: {
       nextEl: '.button-next',
       prevEl: '.button-prev',
+    },
+    breakpoints: {
+      992: {
+        slidesPerView: 2
+      },
+      1250: {
+        slidesPerView: 3
+      },
+      1450: {
+        slidesPerView: 5
+      }
     }
   };
 }
