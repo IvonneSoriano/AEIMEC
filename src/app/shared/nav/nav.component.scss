@@ -5,7 +5,7 @@
 
     @media (max-width: 992px) {
         display: block;
-        z-index: 101;
+        z-index: 100001;
         position: absolute;
         top: 40px;
         left: 40px;
@@ -110,16 +110,19 @@
         top: 0;
         left: -100%;
         bottom: 0;
-        height: 100vh;
-        z-index: 102;
-        padding: 40px;
+        padding: 60px 40px 0;
         max-width: unset;
         transition: left 0.5s;
         text-align: center;
         width: 100%;
-        background-color: transparent;
 
         .burguer {
+            display: block;
+            width: 25px;
+            height: 25px;
+            background-color: $secondaryInteractive;
+        }
+         .burguer {
             display: block;
             width: 25px;
             height: 25px;
@@ -151,8 +154,6 @@
         }
 
         &.active {
-            background-color: $primaryLayout;
-            min-height: 100vh;
             left: 0;
             transition: left 0.5s;
 
