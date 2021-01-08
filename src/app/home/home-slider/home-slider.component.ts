@@ -28,9 +28,11 @@ export class HomeSliderComponent implements OnInit {
   index;
   config: SwiperConfigInterface = {
     resistance: true,
-    resistanceRatio: 0.1, speed: 1000,
-    autoplay: false,
-    mousewheel: true,
+    resistanceRatio: 0.1,
+    autoplay: true,
+    loop: true,
+    speed: 1000,
+    mousewheel: false,
     parallax: true,
     pagination: {
       el: '.pagination',

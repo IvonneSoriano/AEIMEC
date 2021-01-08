@@ -1,31 +1,27 @@
 
 # AEIMEC web page
-
+Es una página web oficial par la Asociación de Estudiantes de Ingeniería Mecatrónica - UDB, en la cual podrán mostrar información importante sobre ellos, así como también podrán contar con un *portafolio* para todos sus proyectos, de esta manera, potenciales clientes podrán observar su desempeño así como ponerse en contacto con ellos.
+Además, la página cuenta con un apartado para su esperado evento **We Are**, en el cual podrán colocar datos relevantes sobre él, así como diversas imágenes para que sean de referencia para todos aquellos interesados.
 Este proyecto fue generado con  [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+##Contenido
+* **Index**
+	+ Home
+	+ About Us
+	+ Contact Us
+* **Portafolio**
+	+ Proyectos
+	> Para cada proyecto, hay una página individual
+	+ Colaboraciones
+* **We Are**
+	
 
 
 ## Dependencias
 - [Swiper](http://https://swiperjs.com/angular/ "Swiper")
 - [Angular Swiper Wrapper](http://https://github.com/zefoy/ngx-swiper-wrapper#readme "Angular Swiper Wrapper")
-- Bootstrap v4 
-
-### Features
-
-- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-- Support identification, interpretation, fliter of the HTML tags;
-- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
+- [Bootstrap v4](http://https://getbootstrap.com/ "Bootstrap v4")
+- [Jquery](http://https://jquery.com/ "Jquery")
 
 # Editor.md
 
@@ -332,5 +328,12 @@ Note right of China: China thinks\nabout it
 China-->Andrew: How are you? 
 Andrew->>China: I am good thanks!
 ```
+## Angular development
+### Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+### Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 ###End
