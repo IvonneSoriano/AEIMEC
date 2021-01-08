@@ -43,18 +43,31 @@ export class NavComponent implements OnInit {
       });
 
       var link = $('#nav a.dot');
+      var link1 =  $('#nav a.dot1')
 
       $(window).on('scroll', function () {
         changedNav();
       });
 
+      link1.on('click', function (e) {
+        $(".nav").toggleClass("active");
+        link.removeClass('active');
+        $(this).addClass('active');
+        e.preventDefault();
+       
+      });
+
+
       link.on('click', function (e) {
+        link1.removeClass('active');
+        $(".nav").toggleClass("active");
         var target = $($(this).attr('href'));
         $('html, body').animate({
           scrollTop: target.offset().top
         }, 600);
         $(this).addClass('active');
         e.preventDefault();
+       
       });
 
       function changedNav() {
