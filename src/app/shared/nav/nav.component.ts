@@ -52,6 +52,7 @@ export class NavComponent implements OnInit {
 
       link1.on('click', function (e) {
         $(".nav").toggleClass("active");
+        $(".burguer").toggleClass("active");
         link.removeClass('active');
         $(this).addClass('active');
         e.preventDefault();
@@ -62,6 +63,7 @@ export class NavComponent implements OnInit {
       link.on('click', function (e) {
         link1.removeClass('active');
         $(".nav").toggleClass("active");
+        $(".burguer").toggleClass("active");
         var target = $($(this).attr('href'));
         $('html, body').animate({
           scrollTop: target.offset().top

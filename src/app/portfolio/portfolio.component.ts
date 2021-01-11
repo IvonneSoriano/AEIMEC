@@ -18,9 +18,9 @@ export class PortfolioComponent implements OnInit {
   config: SwiperConfigInterface = {
     slidesPerView: 1,
     // width: 1310,
-    spaceBetween: 10,
+    spaceBetween: 20,
     slidesPerGroup: 1,
-    centeredSlides: false,
+    centeredSlides: true,
     loop: false,
     loopFillGroupWithBlank: false,
     navigation: {
@@ -28,28 +28,32 @@ export class PortfolioComponent implements OnInit {
       prevEl: '.button-prev',
     },
     breakpoints: {
-   
+
       992: {
         slidesPerView: 1,
-        spaceBetween: 10,
+        spaceBetween: 20,
         centeredSlides: true,
       },
       1000: {
         spaceBetween: 0,
-        slidesPerView: 3
+        slidesPerView: 3,
+        centeredSlides: false,
       },
       1250: {
         spaceBetween: 0,
-        slidesPerView: 3
+        slidesPerView: 3,
+        centeredSlides: false,
       },
       1450: {
         spaceBetween: 0,
-        slidesPerView: 3
-        
+        slidesPerView: 3,
+        centeredSlides: false,
+
       },
       1950: {
         spaceBetween: 0,
-        slidesPerView: 4        
+        slidesPerView: 4,
+        centeredSlides: false,
       }
     }
 
@@ -74,7 +78,7 @@ export class PortfolioComponent implements OnInit {
     }
   };
 
-  constructor() { 
+  constructor() {
     this.data = portfolio.portfolio;
     this.projects = portfolio.projects;
     this.colaborations = portfolio.colaborations;
