@@ -1,0 +1,58 @@
+@import '../../../assets/css/theme';
+.date{
+    min-height: 100vh;
+    background-color: $darkLayout;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        color: $whiteLayout;
+    }
+    .description{
+        font-size: 20px;
+        line-height: 27px;
+        max-width: 730px;
+        text-align: center;
+        margin: 40px auto 30px;
+        color: $whiteLayout;
+    }
+    .countDown{
+        margin-bottom: 30px;
+        margin-top: 15px;
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        &>div{
+            text-align: center;
+            .number{
+                font-size: 124px;
+                color: $secondaryLayout;
+                font-weight: 700;
+                line-height: 1;
+            }
+            .text{
+                color: $whiteLayout;
+            }
+
+        }
+    }
+
+    @media(max-width: 1360px){
+        .countDown{
+            width: 80%;
+        }
+    }
+
+    @media(max-width: 1200px){
+        .countDown{
+            width: 90%;
+        }
+    }
+    @media(max-width: 768px){
+        padding: 70px 25px;
+        .countDown{
+            flex-direction: column;
+        }
+    }
+}

@@ -83,7 +83,7 @@ export const aboutUs = {
             }
         ],
         /*Esta es la info que va en el apartado de AD */
-        ad:{
+        ad: {
             title: "Conviértete en miembro de AEIMEC UDB",
             /*Se coloca la dirección a donde nos redirigirá el botón */
             url: "https://www.facebook.com/aeimecUDB/",
@@ -242,9 +242,15 @@ export const portfolio = {
 /*Aquí va la info de We Are */
 export const weAre = {
     event: {
-        year : "2021",
+        year: "2021",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi.",
-        ticketUrl : "https://www.eventbrite.es/"
+        ticketUrl: "https://www.eventbrite.es/"
+    },
+    date: {
+        date: "23 de agosto de 2021",
+        englishDate: "08/23/2021",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi.",
+        
     }
 };
 
@@ -256,10 +262,9 @@ export const menu = {
 
 /*Aquí se colocarán todas las redes sociales que hay */
 export const socialNetworks = {
- /*     • Aquí solo colocaremos las url de las redes sociales*/
-           facebook: "https://www.facebook.com/",
-           instagram:  "https://www.facebook.com/",
-           whatsapp:  "https://www.facebook.com/"
+    /*     • Aquí solo colocaremos las url de las redes sociales*/
+    facebook: "https://www.facebook.com/",
+    instagram: "https://www.facebook.com/",
+    whatsapp: "https://www.facebook.com/"
 };
-   
-  
+
