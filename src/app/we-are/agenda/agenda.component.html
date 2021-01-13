@@ -1,0 +1,37 @@
+<div class="agenda">
+    <div class="wrap" [ngClass]="{'d1': (i+1)%3 == 1, 'd2': (i+1)%3 == 2, 'd3' : (i+1)%3==0}"
+        *ngFor="let item of data; let i = index">
+        <div class="title">
+            <p class="m-0 spaceMono">Actividades</p>
+            <h2 class="m-0 spaceMono">{{item.title}}</h2>
+        </div>
+        <div class="activities">
+            <div class="acts par">
+                <ng-container *ngFor="let act of item.events; let j = index">
+                    <div class="act" *ngIf="(j+1)%2!=0">
+                        <div class="cube"></div>
+                        <p class="m-0 spaceGrotesk time">{{act.time}}</p>
+                        <div class="circle">
+                            <img [src]="act.img" alt="">
+                        </div>
+                        <h3 class="m-0 h3 spaceMono">{{act.title}}</h3>
+                    </div>
+                </ng-container>
+            </div>
+            <div class="acts non">
+                <ng-container *ngFor="let act of item.events; let j = index">
+                    <div class="act" *ngIf="(j+1)%2==0">
+                        <div class="cube"></div>
+                        <p class="m-0 spaceGrotesk time">{{act.time}}</p>
+                        <div class="circle">
+                            <img [src]="act.img" alt="">
+                        </div>
+                        <h3 class="m-0 h3 spaceMono">{{act.title}}</h3>
+                    </div>
+                </ng-container>
+
+
+            </div>
+
+        </div>
+    </div>
