@@ -83,7 +83,7 @@ export const aboutUs = {
             }
         ],
         /*Esta es la info que va en el apartado de AD */
-        ad:{
+        ad: {
             title: "Conviértete en miembro de AEIMEC UDB",
             /*Se coloca la dirección a donde nos redirigirá el botón */
             url: "https://www.facebook.com/aeimecUDB/",
@@ -239,6 +239,105 @@ export const portfolio = {
     }
 };
 
+/*Aquí va la info de We Are */
+export const weAre = {
+    event: {
+        year: "2021",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi.",
+        ticketUrl: "https://www.eventbrite.es/"
+    },
+    date: {
+        date: "23 de agosto de 2021",
+        englishDate: "08/23/2021",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi.",
+
+    },
+    agenda:[
+        {
+            title: "Día 1",
+            events:     [
+                {
+                    time: "8:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento"
+                },
+                {
+                    time: "9:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento 2"
+                },
+                {
+                    time: "12:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento 3"
+                }
+            ],
+        },
+    
+        {
+            title: "Día 2",
+            events:     [
+                {
+                    time: "8:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento"
+                },
+                {
+                    time: "9:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento 2"
+                },
+                {
+                    time: "12:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento 3"
+                }
+            ],
+        },
+        {
+            title: "Día 3",
+            events:     [
+                {
+                    time: "8:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento"
+                },
+                {
+                    time: "9:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento 2"
+                },
+                {
+                    time: "12:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento 3"
+                }
+            ],
+        },
+        {
+            title: "Día 4",
+            events:     [
+                {
+                    time: "8:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento"
+                },
+                {
+                    time: "9:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento 2"
+                },
+                {
+                    time: "12:00 am",
+                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
+                    title: "Título de la ponencia en evento 3"
+                }
+            ],
+        },
+    ]
+};
+
+
 export const menu = {
     nav: ["Home", "Nosotros", "Contáctenos", "Portafolio", "We Are"],
     footer: "All Right Reserved 2020."
@@ -246,10 +345,9 @@ export const menu = {
 
 /*Aquí se colocarán todas las redes sociales que hay */
 export const socialNetworks = {
- /*     • Aquí solo colocaremos las url de las redes sociales*/
-           facebook: "https://www.facebook.com/",
-           instagram:  "https://www.facebook.com/",
-           whatsapp:  "https://www.facebook.com/"
+    /*     • Aquí solo colocaremos las url de las redes sociales*/
+    facebook: "https://www.facebook.com/",
+    instagram: "https://www.facebook.com/",
+    whatsapp: "https://www.facebook.com/"
 };
-   
-  
+
