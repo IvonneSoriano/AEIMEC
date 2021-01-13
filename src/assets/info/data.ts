@@ -239,6 +239,16 @@ export const portfolio = {
     }
 };
 
+/*Aquí va la info de We Are */
+export const weAre = {
+    event: {
+        year : "2021",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi.",
+        ticketUrl : "https://www.eventbrite.es/"
+    }
+};
+
+
 export const menu = {
     nav: ["Home", "Nosotros", "Contáctenos", "Portafolio", "We Are"],
     footer: "All Right Reserved 2020."

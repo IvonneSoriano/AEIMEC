@@ -1,0 +1,59 @@
+@import '../../../assets/css/theme';
+
+.event {
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(33, 4, 218, 0.22) 0%, #006FFF 100%), url(../../../assets/img/texture.png);
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+
+    h1 {
+        font-size: 124px;
+        line-height: 1;
+        color: $whiteLayout;
+
+        span {
+            display: block;
+            text-align: center;
+
+            &.fixedText {
+                color: $secondaryLayout;
+            }
+        }
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        max-width: 730px;
+        text-align: center;
+        margin: 40px auto 30px;
+        color: $whiteLayout;
+    }
+    .btn{
+        background-color: $secondaryInteractive;
+        color: $primaryInteractive;
+        font-weight: 700;
+    }
+    @media (max-width:1024px) {
+        h1 {
+            font-size: 114px;
+        }
+        p {
+            max-width: 600px;
+        }
+    }
+
+    @media (max-width:768px) {
+        padding: 70px 25px;
+        h1 {
+            font-size: 104px;
+        }
+        p {
+            max-width: 600px;
+        }
+    }
+}
