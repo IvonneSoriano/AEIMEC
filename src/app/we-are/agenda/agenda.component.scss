@@ -97,6 +97,8 @@
                 flex: 0 0 50%;
 
                 .act {
+                    display: flex;
+                    flex-direction: column;
                     min-height: 350px;
                     padding: 0 40px;
                     position: relative;
@@ -149,6 +151,12 @@
                 }
 
             }
+        }
+    }
+    @media(max-width: 768px){
+        .wrap {
+            flex-direction: column;
+            
         }
     }
 }
