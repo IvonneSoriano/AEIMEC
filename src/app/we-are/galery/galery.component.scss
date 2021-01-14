@@ -28,8 +28,15 @@
     }
 
     @media (max-width:768px) {
-        height: 50vh;
-
+        height: 60vh;
+        .pagination {
+            bottom: 20px;
+            width: 100%;
+            top: unset;
+            right: 0;
+            // transform: translateX(50%);
+    
+        }
         .slider {
             &.img {
                 height: 50vh;
@@ -38,8 +45,11 @@
     }
 
     @media (max-width:400px) {
-        height: 37vh;
-
+        height: 47vh;
+        .pagination {
+            width: 60%;
+    
+        }
         .slider {
             &.img {
                 height: 37vh;
