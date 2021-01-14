@@ -21,26 +21,6 @@
             position: relative;
             background-repeat: no-repeat;
             background-size: cover;
-
-            .info {
-                width: calc(100% - 30%);
-                left: 50%;
-                transform: translateX(-50%);
-                position: absolute;
-                bottom: 190px;
-
-                h2 {
-                    color: $secondaryLayout;
-                }
-
-                &>p {
-                    width: 100%;
-                    color: $whiteLayout;
-                    font-size: 24px;
-                    text-align: justify;
-                    line-height: 32px;
-                }
-            }
         }
     }
 

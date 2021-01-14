@@ -1,15 +1,18 @@
 @import '../../../assets/css/theme';
-.date{
+
+.date {
     min-height: 100vh;
     background-color: $darkLayout;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    h2{
+
+    h2 {
         color: $whiteLayout;
     }
-    .description{
+
+    .description {
         font-size: 20px;
         line-height: 27px;
         max-width: 730px;
@@ -17,42 +20,52 @@
         margin: 40px auto 30px;
         color: $whiteLayout;
     }
-    .countDown{
+
+    .countDown {
         margin-bottom: 30px;
         margin-top: 15px;
         display: flex;
         width: 50%;
         justify-content: space-between;
-        &>div{
+
+        &>div {
             text-align: center;
-            .number{
+
+            .number {
                 font-size: 124px;
                 color: $secondaryLayout;
                 font-weight: 700;
                 line-height: 1;
             }
-            .text{
+
+            .text {
                 color: $whiteLayout;
             }
 
         }
     }
 
-    @media(max-width: 1360px){
-        .countDown{
+    @media(max-width: 1360px) {
+        .countDown {
             width: 80%;
         }
     }
 
-    @media(max-width: 1200px){
-        .countDown{
+    @media(max-width: 1200px) {
+        .countDown {
             width: 90%;
         }
     }
-    @media(max-width: 768px){
+
+    @media(max-width: 768px) {
         padding: 70px 25px;
-        .countDown{
+
+        .countDown {
             flex-direction: column;
         }
+    }
+
+    @media(max-width: 360px) {
+        text-align: center;
     }
 }

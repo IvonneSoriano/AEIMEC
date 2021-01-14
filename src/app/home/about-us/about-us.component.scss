@@ -36,7 +36,7 @@
     }
 
     .generalInfo {
-        padding: 40px 80px 40px 40px;
+        padding: 40px;
         background-color: $secondaryLayout;
         justify-content: space-between;
 
@@ -132,6 +132,39 @@
         }
     }
 
+    @media(max-width: 1430px) {
+        .generalInfo {
+            &>.text {
+
+                p {
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+
+    @media(max-width: 1230px) {
+        .generalInfo {
+            &>.text {
+
+                p {
+                    max-width: 250px;
+                }
+            }
+        }
+    }
+
+    @media(max-width: 1130px) {
+        .generalInfo {
+            &>.text {
+
+                p {
+                    max-width: 200px;
+                }
+            }
+        }
+    }
+
     @media(max-width: 1024px) {
         .sutitle {
             height: 60vh;
@@ -162,13 +195,15 @@
 
                 p {
                     text-align: justify;
+                    max-width: 600px;
                 }
             }
         }
 
         .membersInfo {
-            margin-right: -15px;
-            margin-left: -15px;
+
+            // margin-right: -15px;
+            // margin-left: -15px;
             .members {
                 padding: 40px 20px;
 
@@ -181,25 +216,42 @@
                     }
                 }
             }
-        }
-        .ad {
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
 
-            p {
-                color: $whiteLayout;
-            }
+            .ad {
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
 
-            button {
+                p {
+                    color: $whiteLayout;
+                    text-align: center;
+                }
 
-                font-weight: bold;
-                text-align: center;
-                background-color: $secondaryInteractive;
-                color: $primaryInteractive;
+                button {
+
+                    font-weight: bold;
+                    text-align: center;
+                    background-color: $secondaryInteractive;
+                    color: $primaryInteractive;
+                }
             }
         }
     }
+
+    @media (max-width:764px) {
+
+        .generalInfo {
+
+            &>.text {
+
+                p {
+                    max-width: 400px;
+                }
+            }
+        }
+
+    }
+
     @media (max-height:710px) {
         .sutitle {
             height: 80vh;

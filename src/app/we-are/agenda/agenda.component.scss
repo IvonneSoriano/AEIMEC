@@ -6,20 +6,34 @@
     .wrap {
         display: flex;
 
+        .extra {
+            position: absolute;
+            bottom: 0;
+            background-color: yellow;
+            height: 150px;
+            width: 100%;
+        }
+
         &.d1 {
             background-color: $secondaryLayout;
             padding: 100px 0 0;
+
+            .extra {
+                background-color: $whiteLayout;
+            }
 
             .title {
                 color: $primaryDarkLayout;
 
             }
+
             .activities {
-    
+
                 .acts {
                     border-left: 1px solid $primaryDarkLayout;
+
                     .act {
-    
+
                         .cube {
                             background-color: $primaryDarkLayout;
                         }
@@ -27,21 +41,27 @@
                 }
             }
         }
-        
+
         &.d2 {
             background-color: $whiteLayout;
-            padding: 100px 0 0;
+
+            // padding: 100px 0 0;
+            .extra {
+                background-color: $primaryDarkLayout;
+            }
 
             .title {
                 color: $darkLayout;
 
             }
+
             .activities {
-    
+
                 .acts {
                     border-left: 1px solid $darkLayout;
+
                     .act {
-    
+
                         .cube {
                             background-color: $darkLayout;
                         }
@@ -49,21 +69,29 @@
                 }
             }
         }
+
         &.d3 {
             background-color: $primaryDarkLayout;
-            padding: 100px 0 0;
+
+            .extra {
+                background-color: $secondaryLayout;
+            }
+
 
             .title {
                 color: $secondaryLayout;
 
             }
+
             .activities {
-    
+
                 .acts {
                     border-left: 1px solid $secondaryLayout;
+
                     .act {
 
                         color: $secondaryLayout;
+
                         .cube {
                             background-color: $secondaryLayout;
                         }
@@ -76,6 +104,7 @@
             flex: 0 0 40%;
             text-align: center;
             font-weight: 700;
+            position: relative;
 
             p {
                 font-size: 36px;
@@ -86,6 +115,8 @@
                 font-size: 80px;
                 line-height: 118px;
             }
+
+
         }
 
         .activities {
@@ -94,7 +125,9 @@
 
             .acts {
                 border-left: 1px solid $primaryDarkLayout;
+                position: relative;
                 flex: 0 0 50%;
+
 
                 .act {
                     display: flex;
@@ -136,49 +169,94 @@
                         margin-bottom: 20px;
                     }
 
+
                 }
 
                 &.par {
                     .act {
                         margin-bottom: 350px;
+
                     }
                 }
 
                 &.non {
                     .act {
                         margin-top: 350px;
+                        // &:last-of-type{
+                        //     margin-top: 200px;
+                        // }
                     }
                 }
 
             }
         }
     }
-    @media(max-width: 768px){
+
+    @media(max-width: 768px) {
         .wrap {
+            padding: 75px 0 0;
             flex-direction: column;
-            .activities{
-                .acts{
+
+            .extra {
+                display: none;
+            }
+
+            .activities {
+                .acts {
                     &.par {
                         border-left: none;
-                        .act{
+
+                        .act {
                             align-items: flex-end;
+                            margin-bottom: 300px;
+
                             .cube {
                                 left: unset;
                                 right: calc(-39px / 2);
                             }
+
                         }
                     }
-                    .act{
+
+                    &.non {
+                        .act {
+
+                            margin-top: 300px;
+                        }
+                    }
+
+                    .act {
+                        min-height: 250px;
                         .circle {
                             width: 100px;
                             height: 100px;
                         }
                     }
-               
+
 
                 }
             }
-            
+
+        }
+    }
+
+    @media(max-width: 360px) {
+        .wrap {
+
+            .activities {
+                .acts {
+
+                    .act {
+                        .circle {
+                            width: 75px;
+                            height: 75px;
+                        }
+                    }
+
+
+                }
+            }
+
         }
     }
 }

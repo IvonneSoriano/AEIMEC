@@ -4,6 +4,9 @@
         <div class="title">
             <p class="m-0 spaceMono">Actividades</p>
             <h2 class="m-0 spaceMono">{{item.title}}</h2>
+            <div class="extra" *ngIf="i+1 < data.length">
+
+            </div>
         </div>
         <div class="activities">
             <div class="acts par">
@@ -15,6 +18,9 @@
                             <img [src]="act.img" alt="">
                         </div>
                         <h3 class="m-0 h3 spaceMono">{{act.title}}</h3>
+                    </div>
+                    <div class="extra" *ngIf="i+1 < data.length && j+1 == item.events.length">
+
                     </div>
                 </ng-container>
             </div>
@@ -28,10 +34,14 @@
                         </div>
                         <h3 class="m-0 h3 spaceMono">{{act.title}}</h3>
                     </div>
+                    <div class="extra" *ngIf="i+1 < data.length && j+1 == item.events.length">
+
+                    </div>
                 </ng-container>
 
 
             </div>
 
         </div>
+
     </div>
