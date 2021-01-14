@@ -346,6 +346,20 @@ export const weAre = {
             img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
         },
 
+    ],
+    sponsors:[
+        {
+            name: "",
+            url: "",
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            
+        },
+        {
+            name: "",
+            url: "",
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            
+        }
     ]
 };
 

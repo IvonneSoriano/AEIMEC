@@ -1,0 +1,26 @@
+@import '../../../assets/css/theme';
+
+.sponsors {
+    height: 30vh;
+    background-color: $secondaryLayout;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h3 {
+        color: $darkLayout;
+    }
+
+    .colab {
+        width: 100%;
+        .img {
+            height: 150px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+    }
+}

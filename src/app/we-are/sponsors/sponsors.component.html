@@ -1,0 +1,12 @@
+<div class="sponsors">
+    <h3 class="m-0 h3 spaceMono">Nuestros patrocinadores:</h3>
+    <div class="swiper-container" [swiper]="configColab" [(index)]="index">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide colab" *ngFor="let slider of data">
+                <div class="img">
+                    <img [src]="slider.img" [alt]="slider.name">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

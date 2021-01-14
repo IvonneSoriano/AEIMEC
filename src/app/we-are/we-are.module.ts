@@ -8,10 +8,11 @@ import { DateComponent } from './date/date.component';
 import { AgendaComponent } from './agenda/agenda.component';
 import { GaleryComponent } from './galery/galery.component';
 import { SwiperModule } from 'ngx-swiper-wrapper';
+import { SponsorsComponent } from './sponsors/sponsors.component';
 
 
 @NgModule({
-  declarations: [WeAreComponent, EventComponent, DateComponent, AgendaComponent, GaleryComponent],
+  declarations: [WeAreComponent, EventComponent, DateComponent, AgendaComponent, GaleryComponent, SponsorsComponent],
   imports: [
     CommonModule,
     SwiperModule,
