@@ -100,7 +100,7 @@ export const contatUs = {
     /*Aquí colocamos el título de la sección*/
     title: "Contáctanos",
     /*Se añade la dirección de la imagen que aparecerá en la parte de contactUs */
-    img: "",
+    img: "assets/img/contact.jpg",
     /*Aquí colocamos un email de contacto */
     email: "contact@aeimec.udb.edu.sv"
 };
@@ -314,50 +314,73 @@ export const weAre = {
                 }
             ],
         },
-        {
-            title: "Día 4",
-            events:     [
-                {
-                    time: "8:00 am",
-                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
-                    title: "Título de la ponencia en evento"
-                },
-                {
-                    time: "9:00 am",
-                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
-                    title: "Título de la ponencia en evento 2"
-                },
-                {
-                    time: "12:00 am",
-                    img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
-                    title: "Título de la ponencia en evento 3"
-                }
-            ],
-        },
+   
     ],
     gallery:[
         {
-            img: "https://image.freepik.com/vector-gratis/robot-estructura-metalica-ai-inteligencia-artificial-forma-cyborg-o-bot-cerebro-mano-robotica-cerebro-digital_127544-851.jpg"
+            img:"assets/img/weare/weare1.jpg"
         },
         {
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            img:"assets/img/weare/weare2.jpg"
         },
         {
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            img:"assets/img/weare/weare3.jpg"
+        },
+
+        {
+            img:"assets/img/weare/weare4.jpg"
+        },
+
+        {
+            img:"assets/img/weare/weare5.jpg"
+        },
+
+        {
+            img:"assets/img/weare/weare6.jpg"
+        },
+
+        {
+            img:"assets/img/weare/weare7.jpg"
+        },
+
+        {
+            img:"assets/img/weare/weare8.jpg"
+        },
+
+        {
+            img:"assets/img/weare/weare9.jpg"
+        },
+
+        {
+            img:"assets/img/weare/weare10.jpg"
         },
 
     ],
     sponsors:[
         {
-            name: "",
+            name: "Uno",
             url: "",
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            img:"assets/img/sponsors/Sennheiser.png"
             
         },
         {
-            name: "",
+            name: "dos",
             url: "",
-            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+            img:"assets/img/sponsors/Group8.png"
+            
+        }
+        ,
+        {
+            name: "tres",
+            url: "",
+            img:"assets/img/sponsors/Group.png"
+            
+        }
+        ,
+        {
+            name: "Cu",
+            url: "",
+            img:"assets/img/sponsors/Etrade.png"
             
         }
     ]

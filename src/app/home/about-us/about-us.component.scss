@@ -9,8 +9,13 @@
         position: relative;
 
         .img {
-            height: 385px;
+            max-height: 385px;
             background-color: #ddd;
+            padding: 0!important;
+            overflow: hidden;
+            img{
+                max-height: 100%;
+            }
         }
 
         .info {
