@@ -6,12 +6,15 @@ import { WeAreComponent } from './we-are.component';
 import { EventComponent } from './event/event.component';
 import { DateComponent } from './date/date.component';
 import { AgendaComponent } from './agenda/agenda.component';
+import { GaleryComponent } from './galery/galery.component';
+import { SwiperModule } from 'ngx-swiper-wrapper';
 
 
 @NgModule({
-  declarations: [WeAreComponent, EventComponent, DateComponent, AgendaComponent],
+  declarations: [WeAreComponent, EventComponent, DateComponent, AgendaComponent, GaleryComponent],
   imports: [
     CommonModule,
+    SwiperModule,
     WeAreRoutingModule
   ]
 })

@@ -156,6 +156,28 @@
     @media(max-width: 768px){
         .wrap {
             flex-direction: column;
+            .activities{
+                .acts{
+                    &.par {
+                        border-left: none;
+                        .act{
+                            align-items: flex-end;
+                            .cube {
+                                left: unset;
+                                right: calc(-39px / 2);
+                            }
+                        }
+                    }
+                    .act{
+                        .circle {
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+               
+
+                }
+            }
             
         }
     }

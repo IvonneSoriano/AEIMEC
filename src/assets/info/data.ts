@@ -334,6 +334,18 @@ export const weAre = {
                 }
             ],
         },
+    ],
+    gallery:[
+        {
+            img: "https://image.freepik.com/vector-gratis/robot-estructura-metalica-ai-inteligencia-artificial-forma-cyborg-o-bot-cerebro-mano-robotica-cerebro-digital_127544-851.jpg"
+        },
+        {
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+        },
+        {
+            img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+        },
+
     ]
 };
 
