@@ -5,25 +5,25 @@ export const home = {
             /*Aquí debemos colocar una ruta o url de imagen */
             img: "assets/img/homeSlider/1.jpg",
             /*El título que saldrá en la imagen */
-            title: "Title 01",
+            title: "¡Soluciones innovadoras!",
             /*Debemos incluir una pequeña descripción */
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi."
+            description: "AEIMEC está a la vanguardia para dar soluciones óptimas a los problemas."
         },
         {
             /*Aquí debemos colocar una ruta o url de imagen */
             img: "assets/img/homeSlider/2.jpg",
             /*El título que saldrá en la imagen */
-            title: "Title 02",
+            title: "Robótica a profundidad",
             /*Debemos incluir una pequeña descripción */
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi."
+            description: "Nos apasiona crear soluciones robóticas "
         },
         {
             /*Aquí debemos colocar una ruta o url de imagen */
             img: "assets/img/homeSlider/3.jpg",
             /*El título que saldrá en la imagen */
-            title: "Title 03",
+            title: "Trabajamos con pasión",
             /*Debemos incluir una pequeña descripción */
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi."
+            description: "Somos un grupo de jóvenes que estamos al servicio de la gente."
         }
     ]
 }
@@ -373,8 +373,8 @@ export const portfolio = {
 export const weAre = {
     event: {
         year: "2021",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi.",
-        ticketUrl: "https://www.eventbrite.es/"
+        description: "El evento mecatrónico más esperado",
+        ticketUrl: null
     },
     date: {
         date: "23 de agosto de 2021",

@@ -7,7 +7,7 @@
     <p class="spaceGrotesk">
        {{data.description}}
     </p>
-    <a [href]="data.ticketUrl"><button type="button" class="btn">
+    <a *ngIf="data.ticketUrl" [href]="data.ticketUrl"><button type="button" class="btn">
             Tickets
         </button></a>
 </div>
