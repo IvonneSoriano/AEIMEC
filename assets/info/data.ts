@@ -3,27 +3,27 @@ export const home = {
     sliders: [
         {
             /*Aquí debemos colocar una ruta o url de imagen */
-            img: "https://image.freepik.com/vector-gratis/robot-estructura-metalica-ai-inteligencia-artificial-forma-cyborg-o-bot-cerebro-mano-robotica-cerebro-digital_127544-851.jpg",
+            img: "assets/img/homeSlider/1.jpg",
             /*El título que saldrá en la imagen */
-            title: "Title 01",
+            title: "¡Soluciones innovadoras!",
             /*Debemos incluir una pequeña descripción */
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi."
+            description: "AEIMEC está a la vanguardia para dar soluciones óptimas a los problemas."
         },
         {
             /*Aquí debemos colocar una ruta o url de imagen */
-            img: "https://image.freepik.com/foto-gratis/dron-fijacion-taller-mantenimiento_1098-13791.jpg",
+            img: "assets/img/homeSlider/2.jpg",
             /*El título que saldrá en la imagen */
-            title: "Title 02",
+            title: "Robótica a profundidad",
             /*Debemos incluir una pequeña descripción */
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi."
+            description: "Nos apasiona crear soluciones robóticas "
         },
         {
             /*Aquí debemos colocar una ruta o url de imagen */
-            img: "https://image.freepik.com/foto-gratis/primer-plano-placa-circuito-electronico-cpu-microchip-componentes-electronicos-fondo_1387-819.jpg",
+            img: "assets/img/homeSlider/3.jpg",
             /*El título que saldrá en la imagen */
-            title: "Title 03",
+            title: "Trabajamos con pasión",
             /*Debemos incluir una pequeña descripción */
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi."
+            description: "Somos un grupo de jóvenes que estamos al servicio de la gente."
         }
     ]
 }
@@ -32,18 +32,18 @@ export const home = {
 export const aboutUs = {
     /*Esta es la info que va superpuesta en una imagen */
     subtitle: {
-        title: "Title 02",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet id tristique urna, nibh cursus euismod nisl. Molestie felis pretium vitae fermentum elit tellus. Quis aliquam ac pellentesque pulvinar viverra ridiculus sit. Id leo arcu a ullamcorper fames quis pretium tempus est. Aliquet ultrices duis non cursus volutpat sed eget id potenti."
+        title: "¿Quiénes somos?",
+        description: "Somos un grupo de jóvenes de la carrera de ingeniería mecatrónica de la Universidad Don Bosco apasionados por la innovación, la tecnología y la robótica, motivados por los lazos de amistad que nos unen como también por el interés de servicio a nuestra comunidad sin dejar a un lado el compromiso con nuestro medio ambiente y el cuidado de los recursos naturales."
     },
     /* Aquí se coloca, comunmente, la Misión y la Visión, pero se puede colocar cualquier información siempre y cuando vaya en pareja */
     generalInfo: [
         {
             title: "Misión",
-            description: "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis."
+            description: "Desarrollar iniciativas que sirvan de potenciador para el crecimiento profesional y humano de los estudiantes."
         },
         {
             title: "Visión",
-            description: "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit amet proin et euismod auctor. Sociis interdum maecenas tortor sem pellentesque porttitor. Molestie velit vitae a interdum lacus. Pellentesque malesuada platea mauris felis elementum facilisis phasellus sed. Imperdiet sed tellus netus purus quis."
+            description: "Ser referentes del Asocianismo Estudiantil a través del factor diferenciador de la experiencia AEIMEC, representando con dignidad a los estudiantes de Mecatrónica y destacando el trabajo e importancia de la carrera en El Salvador."
         }
     ],
     /*Aquí se debe colocar la información de los mimebros */
@@ -52,34 +52,29 @@ export const aboutUs = {
         members: [
 
             {
-                fullname: "Nombre Apellido",
-                job: "Posición",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+                fullname: "Ricardo Aarón",
+                job: "Presidente",
+                img: "assets/img/junta/Ricardo Aarón - Presidente.jpg"
             },
             {
-                fullname: "Nombre Apellido",
-                job: "Posición",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+                fullname: "Francisco Peña",
+                job: "Vicepresidente",
+                img: "assets/img/junta/Francisco Peña - Vicepresidente.jpg"
             },
             {
-                fullname: "Nombre Apellido",
-                job: "Posición",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+                fullname: "Camila Acevedo",
+                job: "Secretaria",
+                img: "assets/img/junta/Camila Acevedo - Secretaria.jpg"
             },
             {
-                fullname: "Nombre Apellido",
-                job: "Posición",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+                fullname: "Maria José Pacheco",
+                job: "Tesorera",
+                img: "assets/img/junta/Maria José Pacheco - Tesorera.jpg"
             },
             {
-                fullname: "Nombre Apellido",
-                job: "Posición",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
-            },
-            {
-                fullname: "Nombre Apellido",
-                job: "Posición",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+                fullname: "Alejandro Martínez",
+                job: "Vocal",
+                img: "assets/img/junta/Alejandro Martínez - Vocal.jpg"
             }
         ],
         /*Esta es la info que va en el apartado de AD */
@@ -102,7 +97,7 @@ export const contatUs = {
     /*Se añade la dirección de la imagen que aparecerá en la parte de contactUs */
     img: "assets/img/contact.jpg",
     /*Aquí colocamos un email de contacto */
-    email: "contact@aeimec.udb.edu.sv"
+    email: "aeimec@udb.edu.sv"
 };
 
 /*Aquí va la información que saldrá en la parte del Portafolio*/
@@ -110,7 +105,7 @@ export const portfolio = {
     /*Esta info es para la página general de portafolio */
     portfolio: {
         title: "Portafolio",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum sit urna, tincidunt sollicitudin. Turpis vel, gravida odio magna tellus dui. Vehicula accumsan tellus elementum arcu aliquet augue eleifend congue auctor. Massa eget vel euismod sed sit nec pretium gravida in. Nunc nulla interdum pharetra velit semper. Nisl, neque, vulputate euismod risus, fermentum. Lacus in quis faucibus tortor eu."
+        description: "Dentro de las actividades desarrolladas como AEIMEC se destacan eventos de convivencia estudiantil, actividades formativas como: cursos, ponencias, talleres, conversatorios, visitas técnicas y clubes. Apoyo técnico – formativo a proyectos como: el Science Girl con la UDB y Vector con World Vision El Salvador. Voluntariado ecológico bajo el movimiento Chipahua Kali y la Jornada de Ingeniería Mecatrónica, el cual es un evento temático anual que reúne a estudiantes y profesionales con el objetivo de hacer visualizar la labor investigativa de los estudiantes y la importancia de la Mecatrónica en el mundo laboral a los asistentes."
     },
     /*Aquí deben colocarl todos los proyectos que tengan, con la siguiente información
         • url = como será la dirección en la barra de redireccionamiento
@@ -122,88 +117,230 @@ export const portfolio = {
     projects: [
         {
             url: "1",
-            name: "Nombre del proyecto 1",
-            brand: "Marca",
-            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            name: "Chipahua Kali.",
+            brand: "UDB",
+            img: "assets/img/chipahuaKali/front.jpg",
+            description: "Proyecto enfocado al turismo ecológico; conocer nuestro hermoso país y además brindar un apoyo de concientización medioambiental. Proyecto desarrollado como voluntario ecológico por parte de la AEIMEC y la Asociación de Estudiantes de Diseño Industrial (AEDI).",
             /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
             galery: [
                 {
                     /*Se añade un nombre */
                     name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
-                    img: "https://image.freepik.com/vector-gratis/herramientas_24908-54114.jpg"
+                    img: "assets/img/chipahuaKali/1.jpg"
                 },
                 {
                     /*Se añade un nombre */
                     name: "Imagen 2",
                     /*Se añade la url o la ruta de la imagen */
-                    img: "https://image.freepik.com/vector-gratis/paquete-iconos-herramientas-construccion_24908-59860.jpg"
+                    img: "assets/img/chipahuaKali/2.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 3",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/chipahuaKali/3.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 4",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/chipahuaKali/4.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 5",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/chipahuaKali/5.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 6",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/chipahuaKali/6.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 7",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/chipahuaKali/7.jpg"
                 }
 
             ]
         },
         {
             url: "2",
-            name: "Nombre del proyecto 2",
-            brand: "Marca",
-            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            name: "Club de Drones.",
+            brand: "UDB",
+            img: "assets/img/clubDrones/front.jpg",
+            description: "El Club de Drones es una iniciativa de parte de la Asociación Salesiana de Estudiantes en Aeronáutica (ASEA) y la Asociación de Estudiantes de Ingeniería Mecatrónica (AEIMEC) para fomentar la investigación tecnológica y científica para la construcción desde cero de prototipos de Drones, pasando por diferentes facetas de aprendizaje, desde lo más básico hasta lo más profesional, cubriendo investigaciones para lograr implementar estas tecnologías en los diferentes campos.",
             /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
             galery: [
                 {
                     /*Se añade un nombre */
                     name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
-                    img: ""
+                    img: "assets/img/clubDrones/1.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 2",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/clubDrones/2.jpg"
+                }, {
+                    /*Se añade un nombre */
+                    name: "Imagen 3",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/clubDrones/3.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 4",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/clubDrones/4.jpg"
                 }
             ]
         },
         {
             url: "3",
-            name: "Nombre del proyecto 3",
-            brand: "Marca",
-            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            name: "Club de Machine Learning e Inteligencia Artificial.",
+            brand: "UDB",
+            img: "assets/img/mL/front.jpg",
+            description: "Iniciativa que surge de la necesidad de ampliar los conocimientos de Machine Learning e IA, tecnologías que actualmente estan en expansión con gran potencial en la industria. Proyecto creado por AEIMEC en conjunto con la Asociación Salesiana de Estudiantes de Ingenieria en Computación (ASEICC), donde se desarrollaron cursos de Python y Visión Artificial. ",
             /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
             galery: [
                 {
                     /*Se añade un nombre */
                     name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
-                    img: ""
+                    img: "assets/img/mL/1.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 2",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/mL/2.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 3",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/mL/3.jpg"
                 }
             ]
         },
         {
             url: "4",
-            name: "Nombre del proyecto 4",
+            name: "Club de Robótica.",
             brand: "Marca",
-            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            img: "assets/img/robotica/front.jpg",
+            description: "Espacio creado para que estudiantes de la Universidad Don Bosco, conozcan sobre la robótica, que puedan desarrollar nuevas competencias en programación, diseño, además de crear tecnologías que estén al servicio de la comunidad.",
             /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
             galery: [
                 {
                     /*Se añade un nombre */
                     name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
-                    img: ""
+                    img: "assets/img/robotica/1.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 2",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/robotica/2.jpg"
                 }
             ]
         },
         {
             url: "5",
-            name: "Nombre del proyecto 5",
-            brand: "Marca",
-            img: "https://image.freepik.com/vector-gratis/fondo-abstracto-luces-azules_1182-609.jpg",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus hac viverra ultricies orci. In aliquam odio porta pretium. Molestie praesent tellus pellentesque pellentesque a adipiscing in mi, semper. Sit neque vitae et suscipit. Sit ut eget cursus fames id hac. Eget ut amet, urna, viverra lectus. Ut egestas ut tellus, viverra. Integer leo elit nibh tristique egestas ultrices odio eget diam. Morbi et nibh tempus et pulvinar ut eget. Nunc viverra non netus condimentum. Lorem blandit id neque, cursus ut faucibus mauris, accumsan. Sed enim risus pellentesque quis sit proin faucibus aenean turpis. Gravida hendrerit augue libero, egestas a tristique. Commodo at orci habitant ligula. Praesent eget dui lacus, et lorem urna arcu orci praesent. Viverra varius ac diam est gravida at suscipit quam. Elit eget quis sed non. Duis netus pretium faucibus odio egestas vestibulum, sit tortor eu. Duis velit nulla nibh nulla. Cursus nulla viverra risus, odio ac at iaculis. Eget tortor id venenatis, sollicitudin platea mi enim. Pellentesque risus nisl nibh adipiscing consectetur eu, posuere ac enim. At sit proin in diam aliquet in. Enim odio id lectus lectus risus sociis eleifend ultrices. Ut pretium diam blandit volutpat tincidunt a aliquam congue id. Pellentesque rutrum nullam quam tincidunt arcu facilisi sit. Viverra sodales lacus senectus neque sed suspendisse sit. Nunc tellus fringilla faucibus volutpat tortor. Mauris consectetur sed laoreet id condimentum. Netus tortor ut at amet volutpat. Id amet quis aliquam in interdum pellentesque semper suspendisse. Elementum pellentesque tincidunt eget at. Tempor nibh nunc risus sit odio. Sit ultrices id morbi vitae vestibulum, donec.",
+            name: "Vector",
+            brand: "World Vision",
+            img: "assets/img/vector/front.jpg",
+            description: "Vector es una iniciativa que tiene por objetivo potenciar el área tecnológica en la juventud salvadoreña. La asociación de estudiantes de Ingeniería Mecatrónica (AEIMEC) y en conjunto con el Centro de Desarrollo de Carreras (CDC) y World Vision El Salvador trabajamos de la mano para la formulación de este proyecto cuyo principal enfoque es impartir talleres en las ramas de Mecánica, Informática y Robótica a niños, quienes por medio de este proyecto tendrán la posibilidad de descubrir sus habilidades para estas tecnologías y conocer el enorme potencial que tienen este tipo de carreras.",
             /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
             galery: [
                 {
                     /*Se añade un nombre */
                     name: "Imagen 1",
                     /*Se añade la url o la ruta de la imagen */
-                    img: ""
+                    img: "assets/img/vector/1.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 2",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/vector/2.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 3",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/vector/3.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 4",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/vector/4.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 5",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/vector/5.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 6",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/vector/6.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 7",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/vector/7.jpg"
+                }
+
+            ]
+        },
+        {
+            url: "6",
+            name: "Taller de Robótica Educativa para Docentes.",
+            brand: "Secretaría de Innovación de El Salvador",
+            img: "assets/img/tallerRoboS/front.jpg",
+            description: "Taller enfocado a reforzar conocimientos tecnológicos para docentes que lideran materias de informática y robótica en diferentes centros escolares del país. Iniciativa coordinada por la Secretaría de Innovación, con el apoyo del Ministerio de Educación y Plan Internacional El Salvador. ",
+            /*Galería es un conjunto de imágenes para mostrarse en el proyecto */
+            galery: [
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 1",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/tallerRoboS/1.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 2",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/tallerRoboS/2.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 3",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/tallerRoboS/3.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 4",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/tallerRoboS/4.jpg"
+                },
+                {
+                    /*Se añade un nombre */
+                    name: "Imagen 5",
+                    /*Se añade la url o la ruta de la imagen */
+                    img: "assets/img/tallerRoboS/5.jpg"
                 }
             ]
         }
@@ -215,25 +352,18 @@ export const portfolio = {
         /*Se añade el nombre de los partners, así como su logo */
         partners: [
             {
-                name: "Partner 1",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+                name: "UDB",
+                img: "assets/img/partners/UDB.png"
             },
             {
-                name: "Partner 2",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+                name: "WorldVision",
+                img: "assets/img/partners/World vision.png"
             },
             {
-                name: "Partner 3",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
+                name: "Secretaría de innovación de El Salvador",
+                img: "assets/img/partners/Secretaría de innovación.png"
             },
-            {
-                name: "Partner 4",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
-            },
-            {
-                name: "Partner 5",
-                img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg"
-            }
+
 
         ]
     }
@@ -243,8 +373,8 @@ export const portfolio = {
 export const weAre = {
     event: {
         year: "2021",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi.",
-        ticketUrl: "https://www.eventbrite.es/"
+        description: "El evento mecatrónico más esperado",
+        ticketUrl: null
     },
     date: {
         date: "23 de agosto de 2021",
@@ -252,10 +382,10 @@ export const weAre = {
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit a ac etiam tempor semper. Est aenean leo mi facilisis purus morbi. Interdum dolor lectus nisi.",
 
     },
-    agenda:[
+    agenda: [
         {
             title: "Día 1",
-            events:     [
+            events: [
                 {
                     time: "8:00 am",
                     img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
@@ -273,10 +403,10 @@ export const weAre = {
                 }
             ],
         },
-    
+
         {
             title: "Día 2",
-            events:     [
+            events: [
                 {
                     time: "8:00 am",
                     img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
@@ -296,7 +426,7 @@ export const weAre = {
         },
         {
             title: "Día 3",
-            events:     [
+            events: [
                 {
                     time: "8:00 am",
                     img: "https://images.generated.photos/wJJSEyljfrNHAWlTKA-HYS_gevZFug-nzdVSjSMVmGg/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAxODEyNjJfMDc5/MDUzMF8wNzYwNTIy/LmpwZw.jpg",
@@ -314,74 +444,74 @@ export const weAre = {
                 }
             ],
         },
-   
-    ],
-    gallery:[
-        {
-            img:"assets/img/weare/weare1.jpg"
-        },
-        {
-            img:"assets/img/weare/weare2.jpg"
-        },
-        {
-            img:"assets/img/weare/weare3.jpg"
-        },
-
-        {
-            img:"assets/img/weare/weare4.jpg"
-        },
-
-        {
-            img:"assets/img/weare/weare5.jpg"
-        },
-
-        {
-            img:"assets/img/weare/weare6.jpg"
-        },
-
-        {
-            img:"assets/img/weare/weare7.jpg"
-        },
-
-        {
-            img:"assets/img/weare/weare8.jpg"
-        },
-
-        {
-            img:"assets/img/weare/weare9.jpg"
-        },
-
-        {
-            img:"assets/img/weare/weare10.jpg"
-        },
 
     ],
-    sponsors:[
+    gallery: [
+        {
+            img: "assets/img/weare/weare1.jpg"
+        },
+        {
+            img: "assets/img/weare/weare2.jpg"
+        },
+        {
+            img: "assets/img/weare/weare3.jpg"
+        },
+
+        {
+            img: "assets/img/weare/weare4.jpg"
+        },
+
+        {
+            img: "assets/img/weare/weare5.jpg"
+        },
+
+        {
+            img: "assets/img/weare/weare6.jpg"
+        },
+
+        {
+            img: "assets/img/weare/weare7.jpg"
+        },
+
+        {
+            img: "assets/img/weare/weare8.jpg"
+        },
+
+        {
+            img: "assets/img/weare/weare9.jpg"
+        },
+
+        {
+            img: "assets/img/weare/weare10.jpg"
+        },
+
+    ],
+    sponsors: [
         {
             name: "Uno",
             url: "",
-            img:"assets/img/sponsors/Sennheiser.png"
-            
+            img: "assets/img/sponsors/Sennheiser.png"
+
         },
         {
             name: "dos",
             url: "",
-            img:"assets/img/sponsors/Group8.png"
-            
+            img: "assets/img/sponsors/Group8.png"
+
         }
         ,
         {
             name: "tres",
             url: "",
-            img:"assets/img/sponsors/Group.png"
-            
+            img: "assets/img/sponsors/Group.png"
+
         }
         ,
         {
             name: "Cu",
             url: "",
-            img:"assets/img/sponsors/Etrade.png"
-            
+            img: "assets/img/sponsors/Etrade.png"
+
         }
     ]
 };
@@ -395,8 +525,8 @@ export const menu = {
 /*Aquí se colocarán todas las redes sociales que hay */
 export const socialNetworks = {
     /*     • Aquí solo colocaremos las url de las redes sociales*/
-    facebook: "https://www.facebook.com/",
-    instagram: "https://www.facebook.com/",
+    facebook: "https://www.facebook.com/aeimecUDB ",
+    instagram: "https://www.instagram.com/aeimec_udb/",
     whatsapp: "https://www.facebook.com/"
 };
 
