@@ -4,57 +4,64 @@
     .projects {
 
         padding: 60px 40px 0px;
-        h1{
+
+        h1 {
             color: $darkLayout;
         }
     }
 
-        .sliders {
-            // max-width: 1030px;
-            // background-color: pink;
-            margin-bottom: 80px;
-            padding: 0 0 0 30px;
+    .sliders {
+        // max-width: 1030px;
+        // background-color: pink;
+        margin-bottom: 80px;
+        padding: 0 0 0 30px;
 
-            .slider {
-                
-                // padding: 20px;
-                // background-color: yellow;
-                border-radius: 18px;
-                .project{
-                    margin:20px auto;
-                    height: 400px;
-                    width: 290px;
+        .slider {
+
+            // padding: 20px;
+            // background-color: yellow;
+            border-radius: 18px;
+
+            .project {
+                margin: 20px auto;
+                background-size: cover;
+                height: 400px;
+                width: 290px;
                 position: relative;
-                    @extend .slider;
-                    .info{
-                        color:white;
-                        position: absolute;
-                        bottom: 30px;
-                        left: 0;
-                        right: 0;
-                        width: 100%;
-                        text-align: center;
-                    }
-                    // &:hover{
-                    //     transform: scale(1.05);
-                    // }
+                @extend .slider;
+
+                .info {
+                    color: white;
+                    position: absolute;
+                    bottom: 30px;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    text-align: center;
                 }
-               
-            
+
+                // &:hover{
+                //     transform: scale(1.05);
+                // }
+            }
+
+
         }
     }
 
     .colaborations {
         background-color: $secondaryLayout;
         padding: 35px 80px;
-        
-        h2{
+
+        h2 {
             text-align: center;
         }
 
         .colab {
 
-            border: 3px solid #CCCCCC;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             .img {
                 padding: 10px 20px;
@@ -69,20 +76,21 @@
     }
 
     @media (max-width: 1024px) {
-        .projects{
+        .projects {
             padding: 100px 40px 0;
         }
+
         .colaborations {
             padding: 35px;
         }
     }
 
     @media (max-width: 768px) {
-    
+
         .sliders {
-            padding: 0 40px ;
+            padding: 0 40px;
             // .slider {
-             
+
 
             // }
         }

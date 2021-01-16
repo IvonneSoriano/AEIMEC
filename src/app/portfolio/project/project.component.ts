@@ -24,8 +24,9 @@ export class ProjectComponent implements OnInit {
   }
   index;
   config: SwiperConfigInterface = {
-    slidesPerView: 2,
-    spaceBetween: 0,
+    slidesPerView: 5,
+    slidesOffsetAfter: 0,
+    spaceBetween: 10,
     slidesPerGroup: 1,
     loop: false,
     navigation: {
